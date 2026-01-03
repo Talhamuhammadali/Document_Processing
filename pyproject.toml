@@ -1,0 +1,49 @@
+[project]
+name = "document-processing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "docling>=2.66.0",
+    "torchaudio>=2.9.1",
+]
+
+[dependency-groups]
+dev = [
+    "codespell>=2.4.1",
+    "mypy>=1.19.1",
+    "ruff>=0.14.10",
+]
+
+[tool.codespell]
+# Ignore specific files
+skip = '.git,.venv,env,venv,.venv3,.mypy_cache,.ruff_cache,__pycache__'
+
+[tool.ruff]
+# Maximum line length before wrapping
+line-length = 120
+# Target Python version for compatibility checks
+target-version = ["py314"]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors - enforces PEP 8 style guide errors
+    "F",    # pyflakes - detects various errors like unused imports, undefined names
+    "W",    # pycodestyle warnings - enforces PEP 8 style guide warnings
+    "C90",  # mccabe - checks code complexity (cyclomatic complexity)
+    "B",    # flake8-bugbear - finds likely bugs and design problems
+    "I",    # isort - sorts and organizes imports automatically
+    "UP",   # pyupgrade - automatically upgrades syntax for newer Python versions
+    "D",    # pydocstyle - enforces docstring conventions (PEP 257)
+]
+
+[tool.mypy]
+# Target Python version for type checking
+python_version = 3.14
+# Warn about unused mypy configuration options
+warn_unused_configs = true
+# Warn when returning values of type 'Any' from typed functions
+warn_return_any = true
+# Require type annotations on all function definitions
+disallow_untyped_defs = true
