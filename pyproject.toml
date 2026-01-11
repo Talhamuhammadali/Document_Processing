@@ -42,6 +42,9 @@ select = [
     "UP",   # pyupgrade - automatically upgrades syntax for newer Python versions
     "D",    # pydocstyle - enforces docstring conventions (PEP 257)
 ]
+ignore = [
+    "B008",  # FastAPI uses function calls in defaults for dependency injection (File, Form, Depends, etc.)
+]
 
 [tool.mypy]
 # Target Python version for type checking

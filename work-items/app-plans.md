@@ -2,13 +2,13 @@
 
 ## Phase 1: Core Setup
 - [ ] Complete the Docling exploration
-- [ ] Setup app dependencies (async-first architecture)
+- [done] Setup app dependencies (async-first architecture)
 
 ## Phase 2: API Endpoints
 Build 4 main endpoints:
 
 1. **Health Check**
-   - [ ] Basic health/status endpoint
+   - [done] Basic health/status endpoint
 
 2. **Document Upload & Processing**
    - [ ] File upload handler
