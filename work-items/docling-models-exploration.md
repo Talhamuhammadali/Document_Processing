@@ -15,10 +15,13 @@ Understand what models Docling uses, their performance characteristics, and whic
 
 **Output**: Know which models trigger for different document types
 
-### Explore Each Model
+### Explore Each OCR Technique/Model 
+- [ ] Test Tesseract (An Image Processing Technique)
+- [ ] Test EasyOCR 
+- [ ] Test RapidOCR 
 - [ ] Test RT-DETR (layout)
 - [ ] Test TableFormer
-- [ ] Test OCR inference time (EasyOCR vs RapidOCR vs Tasseract)
+- [ ] Test PaddleOCR (A E2E Document extraction pipeline)
 - [ ] Test with/without GPU acceleration
 
 **Output**: Identify the bottleneck model(s)
