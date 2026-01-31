@@ -34,7 +34,7 @@ dev = [
 
 [tool.codespell]
 # Ignore specific files
-skip = '.git,.venv,env,venv,.venv3,.mypy_cache,.ruff_cache,__pycache__'
+skip = '.git,.venv,env,venv,.venv3,.mypy_cache,.ruff_cache,__pycache__,*.ipynb'
 
 [tool.ruff]
 # Maximum line length before wrapping
