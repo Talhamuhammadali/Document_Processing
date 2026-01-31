@@ -8,24 +8,54 @@ from typing import Any
 import fitz
 import pymupdf
 from IPython.display import IFrame, display
-from IPython.display import Image as DisplayImage
 from PIL import Image as PILImage
 from PIL import ImageDraw
 
 
-def print_document(file_path: str) -> None:
+def resize_image(image: PILImage.Image, max_size: int = 1024) -> PILImage.Image:
+    """Resize an image while maintaining aspect ratio.
+
+    Args:
+        image: The PIL Image to resize.
+        max_size: The maximum size for the longest dimension.
+
+    Returns:
+        The resized PIL Image.
+
+    """
+    original_width, original_height = image.size
+    if max(original_width, original_height) <= max_size:
+        return image
+
+    if original_width > original_height:
+        new_width = max_size
+        new_height = int((max_size / original_width) * original_height)
+    else:
+        new_height = max_size
+        new_width = int((max_size / original_height) * original_width)
+
+    return image.resize((new_width, new_height))
+
+
+def print_document(file_path: str, dim_len: int = 800) -> None:
     """Display a PDF or image file in the notebook.
 
     Args:
         file_path: The path to the document file.
+        dim_len: The dimension length for displaying the document.
 
     """
     path = Path(file_path)
     if path.exists():
         if path.suffix.lower() in [".png", ".jpg", ".jpeg"]:
-            display(DisplayImage(filename=str(path)))
+            print("Displaying image:", path.name)
+            image = PILImage.open(path)
+            print(f"Original size: {image.size}")
+            resized_image = resize_image(image, max_size=dim_len)
+            print(f"Resized to: {resized_image.size}")
+            display(resized_image)
         elif path.suffix.lower() == ".pdf":
-            display(IFrame(src=str(path), width=800, height=600))
+            display(IFrame(src=str(path), width=dim_len, height=dim_len))
         else:
             print(f"Unsupported file type: {path.suffix}")
     else:
