@@ -1,0 +1,155 @@
+services:
+  redis-stack:
+    image: redis/redis-stack:latest
+    container_name: redis-stack
+    ports:
+      - "6379:6379"
+      - "8001:8001"
+    environment:
+      - CONFIG_ROOT=/app/config
+    volumes:
+      - ./config:/app/config
+      - redis-data:/data
+    networks:
+      - microservice-network
+
+  langfuse-db:
+    image: postgres:17
+    container_name: langfuse-db
+    environment:
+      - POSTGRES_DB=langfuse
+      - POSTGRES_USER=langfuse
+      - POSTGRES_PASSWORD=langfuse
+    volumes:
+      - langfuse-db-data:/var/lib/postgresql/data
+    networks:
+      - microservice-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U langfuse"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  clickhouse:
+    image: docker.io/clickhouse/clickhouse-server
+    container_name: langfuse-clickhouse
+    restart: always
+    user: "101:101"
+    ports:
+      - "8123:8123"
+    environment:
+      - CLICKHOUSE_DB=langfuse
+      - CLICKHOUSE_USER=langfuse
+      - CLICKHOUSE_PASSWORD=langfuse
+      - CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1
+    volumes:
+      - clickhouse-data:/var/lib/clickhouse
+      - clickhouse-logs:/var/log/clickhouse-server
+    networks:
+      - microservice-network
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:8123/ping || exit 1
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 1s
+
+
+  minio:
+    image: minio/minio:latest
+    container_name: langfuse-minio
+    ports:
+      - "9090:9000"
+      - "9091:9001"
+    environment:
+      - MINIO_ROOT_USER=langfuse
+      - MINIO_ROOT_PASSWORD=langfuse123
+    volumes:
+      - minio-data:/data
+    command: server /data --console-address ":9001"
+    networks:
+      - microservice-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  minio-init:
+    image: minio/mc:latest
+    container_name: minio-init
+    depends_on:
+      minio:
+        condition: service_healthy
+    environment:
+      - MINIO_ROOT_USER=langfuse
+      - MINIO_ROOT_PASSWORD=langfuse123
+    networks:
+      - microservice-network
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set myminio http://langfuse-minio:9000 langfuse langfuse123;
+      mc mb myminio/langfuse-events --ignore-existing;
+      exit 0;
+      "
+
+  langfuse-worker:
+    image: langfuse/langfuse-worker:3.150.0
+    container_name: langfuse-worker
+    depends_on: &langfuse-depends-on
+      langfuse-db:
+        condition: service_healthy
+      clickhouse:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    environment: &langfuse-worker-env
+      DATABASE_URL: postgresql://langfuse:langfuse@langfuse-db:5432/langfuse
+      SALT: mysalt
+      ENCRYPTION_KEY: f0647c6c8494bed613857660f31e7c6a1a0c5bed85d8e39f0fd44e743d094511
+      CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+      CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+      CLICKHOUSE_USER: langfuse
+      CLICKHOUSE_PASSWORD: langfuse
+      CLICKHOUSE_CLUSTER_ENABLED: false
+      REDIS_CONNECTION_STRING: redis://redis-stack:6379
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: true
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: langfuse123
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse-events
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: us-east-1
+      LANGFUSE_ENABLE_BACKGROUND_MIGRATIONS: true
+    networks:
+      - microservice-network
+
+  langfuse-web:
+    image: langfuse/langfuse:3.150.0
+    container_name: langfuse-web
+    depends_on: *langfuse-depends-on
+    ports:
+      - "3000:3000"
+    environment:
+      <<: *langfuse-worker-env
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: mysecret
+      LANGFUSE_INIT_ORG_ID: local-dev
+      LANGFUSE_INIT_ORG_NAME: local-dev
+      LANGFUSE_INIT_PROJECT_ID: local-dev-project
+      LANGFUSE_INIT_PROJECT_NAME: local-dev-project
+      LANGFUSE_INIT_USER_EMAIL: talha_muhammadali@hotmail.com
+      LANGFUSE_INIT_USER_NAME: local-dev
+      LANGFUSE_INIT_USER_PASSWORD: local-dev
+    networks:
+      - microservice-network
+
+volumes:
+  redis-data:
+  langfuse-db-data:
+  clickhouse-data:
+  clickhouse-logs:
+  minio-data:
+
+networks:
+  microservice-network:
+    driver: bridge
