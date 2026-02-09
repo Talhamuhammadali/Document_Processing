@@ -3,7 +3,7 @@ name = "document-processing"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = [
     "docling>=2.66.0",
     "dotenv>=0.9.9",
@@ -43,7 +43,7 @@ skip = '.git,.venv,env,venv,.venv3,.mypy_cache,.ruff_cache,__pycache__,*.ipynb'
 # Maximum line length before wrapping
 line-length = 120
 # Target Python version for compatibility checks
-target-version = "py314"
+target-version = "py313"
 
 [tool.ruff.lint]
 select = [
@@ -62,7 +62,7 @@ ignore = [
 
 [tool.mypy]
 # Target Python version for type checking
-python_version = 3.14
+python_version = 3.13
 # Warn about unused mypy configuration options
 warn_unused_configs = true
 # Warn when returning values of type 'Any' from typed functions
