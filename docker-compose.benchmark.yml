@@ -1,0 +1,52 @@
+services:
+  docling-benchmark:
+    build:
+      context: ./benchmark
+      dockerfile: Dockerfile
+    container_name: docling-benchmark
+    deploy:
+      resources:
+        limits:
+          cpus: "3.0"
+          memory: 6G
+    environment:
+      - INPUT_DIR=/data
+      - OUTPUT_JSON=/out/benchmark_results.json
+      - DOCLING_DEVICE=cpu
+      - WORKERS=1
+      - CPU_CORES=3
+      - DOCLING_DO_OCR=false
+      - DOCLING_DO_TABLES=true
+    volumes:
+      - "./data/local Examples:/data:ro"
+      - "./benchmark/out:/out"
+
+  docling-benchmark-gpu:
+    profiles: ["gpu"]
+    build:
+      context: ./benchmark
+      dockerfile: Dockerfile
+      args:
+        TORCH_INDEX_URL: https://pypi.org/simple
+    container_name: docling-benchmark-gpu
+    deploy:
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: 8G
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      - INPUT_DIR=/data
+      - OUTPUT_JSON=/out/benchmark_results_gpu.json
+      - DOCLING_DEVICE=cuda
+      - WORKERS=1
+      - CPU_CORES=4
+      - DOCLING_DO_OCR=false
+      - DOCLING_DO_TABLES=true
+    volumes:
+      - "./data/local Examples:/data:ro"
+      - "./benchmark/out:/out"

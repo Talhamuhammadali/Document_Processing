@@ -1,0 +1,3796 @@
+{
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "11_VolvoPenta_D13_marine_spec",
+    "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 15009704328762234392,
+        "filename": "11_VolvoPenta_D13_marine_spec.pdf",
+        "uri": null
+    },
+    "furniture": {
+        "self_ref": "#/furniture",
+        "parent": null,
+        "children": [],
+        "content_layer": "furniture",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "body": {
+        "self_ref": "#/body",
+        "parent": null,
+        "children": [
+            {
+                "cref": "#/texts/0"
+            },
+            {
+                "cref": "#/pictures/0"
+            },
+            {
+                "cref": "#/pictures/1"
+            },
+            {
+                "cref": "#/pictures/2"
+            },
+            {
+                "cref": "#/texts/2"
+            },
+            {
+                "cref": "#/tables/0"
+            },
+            {
+                "cref": "#/texts/3"
+            },
+            {
+                "cref": "#/pictures/3"
+            },
+            {
+                "cref": "#/pictures/4"
+            },
+            {
+                "cref": "#/pictures/5"
+            },
+            {
+                "cref": "#/pictures/6"
+            },
+            {
+                "cref": "#/texts/4"
+            },
+            {
+                "cref": "#/texts/5"
+            },
+            {
+                "cref": "#/texts/6"
+            },
+            {
+                "cref": "#/groups/0"
+            },
+            {
+                "cref": "#/texts/16"
+            },
+            {
+                "cref": "#/groups/1"
+            },
+            {
+                "cref": "#/texts/18"
+            },
+            {
+                "cref": "#/groups/2"
+            },
+            {
+                "cref": "#/texts/21"
+            },
+            {
+                "cref": "#/groups/3"
+            },
+            {
+                "cref": "#/texts/26"
+            },
+            {
+                "cref": "#/groups/4"
+            },
+            {
+                "cref": "#/texts/31"
+            },
+            {
+                "cref": "#/groups/5"
+            },
+            {
+                "cref": "#/texts/35"
+            },
+            {
+                "cref": "#/groups/6"
+            },
+            {
+                "cref": "#/texts/37"
+            },
+            {
+                "cref": "#/texts/38"
+            },
+            {
+                "cref": "#/pictures/7"
+            },
+            {
+                "cref": "#/texts/45"
+            },
+            {
+                "cref": "#/texts/46"
+            },
+            {
+                "cref": "#/pictures/8"
+            },
+            {
+                "cref": "#/texts/47"
+            },
+            {
+                "cref": "#/groups/7"
+            },
+            {
+                "cref": "#/texts/49"
+            },
+            {
+                "cref": "#/groups/8"
+            },
+            {
+                "cref": "#/pictures/9"
+            },
+            {
+                "cref": "#/pictures/10"
+            },
+            {
+                "cref": "#/texts/56"
+            },
+            {
+                "cref": "#/pictures/11"
+            },
+            {
+                "cref": "#/texts/57"
+            },
+            {
+                "cref": "#/texts/58"
+            },
+            {
+                "cref": "#/texts/59"
+            },
+            {
+                "cref": "#/texts/60"
+            }
+        ],
+        "content_layer": "body",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "groups": [
+        {
+            "self_ref": "#/groups/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/7"
+                },
+                {
+                    "cref": "#/texts/8"
+                },
+                {
+                    "cref": "#/texts/9"
+                },
+                {
+                    "cref": "#/texts/10"
+                },
+                {
+                    "cref": "#/texts/11"
+                },
+                {
+                    "cref": "#/texts/12"
+                },
+                {
+                    "cref": "#/texts/13"
+                },
+                {
+                    "cref": "#/texts/14"
+                },
+                {
+                    "cref": "#/texts/15"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/17"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/19"
+                },
+                {
+                    "cref": "#/texts/20"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/22"
+                },
+                {
+                    "cref": "#/texts/23"
+                },
+                {
+                    "cref": "#/texts/24"
+                },
+                {
+                    "cref": "#/texts/25"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/27"
+                },
+                {
+                    "cref": "#/texts/28"
+                },
+                {
+                    "cref": "#/texts/29"
+                },
+                {
+                    "cref": "#/texts/30"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/5",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/32"
+                },
+                {
+                    "cref": "#/texts/33"
+                },
+                {
+                    "cref": "#/texts/34"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/6",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/36"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/7",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/48"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/8",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/50"
+                },
+                {
+                    "cref": "#/texts/51"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        }
+    ],
+    "texts": [
+        {
+            "self_ref": "#/texts/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 357.201,
+                        "t": 801.9320146484375,
+                        "r": 564.094,
+                        "b": 790.1750146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "VOLVO PENTA INBOARD DIESEL",
+            "text": "VOLVO PENTA INBOARD DIESEL",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/1",
+            "parent": {
+                "cref": "#/pictures/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 42.52,
+                        "t": 779.5280146484375,
+                        "r": 180.22,
+                        "b": 731.2230146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        8
+                    ]
+                }
+            ],
+            "orig": "D13-1000",
+            "text": "D13-1000",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 46.306,
+                        "t": 456.4000146484375,
+                        "r": 114.806,
+                        "b": 447.4600146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "Technical Data",
+            "text": "Technical Data",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 46.306,
+                        "t": 219.32901464843758,
+                        "r": 316.047,
+                        "b": 192.91701464843754,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        235
+                    ]
+                }
+            ],
+            "orig": "Technical data according to ISO 8665. With fuel having an LHV of 42700 kJ/kg and density of 840 g/liter at 15  °C (60  °F). Merchant fuel may differ from this specification which will influence engine power output and fuel consumption.",
+            "text": "Technical data according to ISO 8665. With fuel having an LHV of 42700 kJ/kg and density of 840 g/liter at 15  °C (60  °F). Merchant fuel may differ from this specification which will influence engine power output and fuel consumption.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 31.181,
+                        "t": 802.2050146484376,
+                        "r": 87.461,
+                        "b": 782.8830146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        8
+                    ]
+                }
+            ],
+            "orig": "D13-1000",
+            "text": "D13-1000",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/5",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 774.1470146484376,
+                        "r": 134.843,
+                        "b": 765.2070146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        22
+                    ]
+                }
+            ],
+            "orig": "Technical description:",
+            "text": "Technical description:",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/6",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 759.0970146484375,
+                        "r": 102.878,
+                        "b": 751.0930146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "Engine and block",
+            "text": "Engine and block",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/7",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 748.7910146484376,
+                        "r": 150.101,
+                        "b": 741.6580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        34
+                    ]
+                }
+            ],
+            "orig": "· Cylinder block made of cast iron",
+            "text": "Cylinder block made of cast iron",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/8",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 739.1910146484375,
+                        "r": 155.07,
+                        "b": 732.0580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        35
+                    ]
+                }
+            ],
+            "orig": "· One-piece cast-iron cylinder head",
+            "text": "One-piece cast-iron cylinder head",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/9",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 729.5910146484375,
+                        "r": 158.967,
+                        "b": 722.4580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        37
+                    ]
+                }
+            ],
+            "orig": "· Ladder frame fitted to engine block",
+            "text": "Ladder frame fitted to engine block",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/10",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 719.9910146484375,
+                        "r": 180.949,
+                        "b": 703.2580146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        56
+                    ]
+                }
+            ],
+            "orig": "· Replaceable wet cylinder liners and valve seats/guides",
+            "text": "Replaceable wet cylinder liners and valve seats/guides",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/11",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 700.7910146484376,
+                        "r": 190.597,
+                        "b": 674.4580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        102
+                    ]
+                }
+            ],
+            "orig": "· Drop forged crankshaft with induction hardened bearing surfaces and fillets with seven main bearings",
+            "text": "Drop forged crankshaft with induction hardened bearing surfaces and fillets with seven main bearings",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/12",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 671.9910146484375,
+                        "r": 189.509,
+                        "b": 645.6580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        93
+                    ]
+                }
+            ],
+            "orig": "· Four-valve-per-cylinder layout with overhead camshaft and center position of unit injectors",
+            "text": "Four-valve-per-cylinder layout with overhead camshaft and center position of unit injectors",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/13",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 643.1910146484375,
+                        "r": 185.094,
+                        "b": 626.4580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        59
+                    ]
+                }
+            ],
+            "orig": "· Each cylinder features cross-flow inlet and exhaust ducts",
+            "text": "Each cylinder features cross-flow inlet and exhaust ducts",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/14",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 623.9910146484375,
+                        "r": 124.487,
+                        "b": 616.8580146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        25
+                    ]
+                }
+            ],
+            "orig": "· Monotherm steel pistons",
+            "text": "Monotherm steel pistons",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/15",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 614.3910146484375,
+                        "r": 116.423,
+                        "b": 607.2580146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "· Rear-end transmission",
+            "text": "Rear-end transmission",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/16",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 600.1950146484376,
+                        "r": 101.906,
+                        "b": 592.1920146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        15
+                    ]
+                }
+            ],
+            "orig": "Engine mounting",
+            "text": "Engine mounting",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/17",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 589.8890146484375,
+                        "r": 124.615,
+                        "b": 582.7560146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "· Flexible engine mounting",
+            "text": "Flexible engine mounting",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/18",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 575.6940146484375,
+                        "r": 109.286,
+                        "b": 567.6900146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        18
+                    ]
+                }
+            ],
+            "orig": "Lubrication system",
+            "text": "Lubrication system",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/19",
+            "parent": {
+                "cref": "#/groups/2"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 565.3880146484375,
+                        "r": 164.959,
+                        "b": 558.2550146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        41
+                    ]
+                }
+            ],
+            "orig": "· Integrated oil cooler in cylinder block",
+            "text": "Integrated oil cooler in cylinder block",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/20",
+            "parent": {
+                "cref": "#/groups/2"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 32.543,
+                        "t": 555.7880146484375,
+                        "r": 175.004,
+                        "b": 539.0550146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        78
+                    ]
+                }
+            ],
+            "orig": "· Rear positioned twin full flow oil filter of spin-on type and by-pass filter",
+            "text": "Rear positioned twin full flow oil filter of spin-on type and by-pass filter",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/21",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 758.6190146484375,
+                        "r": 262.563,
+                        "b": 750.6160146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "orig": "Fuel system",
+            "text": "Fuel system",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/22",
+            "parent": {
+                "cref": "#/groups/3"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 748.3130146484375,
+                        "r": 348.641,
+                        "b": 741.1800146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        41
+                    ]
+                }
+            ],
+            "orig": "· Electronic high pressure unit injectors",
+            "text": "Electronic high pressure unit injectors",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/23",
+            "parent": {
+                "cref": "#/groups/3"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 738.7130146484375,
+                        "r": 365.091,
+                        "b": 731.5800146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        44
+                    ]
+                }
+            ],
+            "orig": "· Gear-driven fuel pump and injection timing",
+            "text": "Gear-driven fuel pump and injection timing",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/24",
+            "parent": {
+                "cref": "#/groups/3"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 729.1130146484376,
+                        "r": 368.443,
+                        "b": 712.3800146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        86
+                    ]
+                }
+            ],
+            "orig": "· Electronically controlled central processing system (EMS - Engine Management System)",
+            "text": "Electronically controlled central processing system (EMS - Engine Management System)",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/25",
+            "parent": {
+                "cref": "#/groups/3"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 709.9130146484375,
+                        "r": 340.603,
+                        "b": 702.7810146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        41
+                    ]
+                }
+            ],
+            "orig": "· Single fine fuel filter of spin-on type",
+            "text": "Single fine fuel filter of spin-on type",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/26",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 697.4190146484375,
+                        "r": 328.389,
+                        "b": 689.4150146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        28
+                    ]
+                }
+            ],
+            "orig": "Air inlet and exhaust system",
+            "text": "Air inlet and exhaust system",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/27",
+            "parent": {
+                "cref": "#/groups/4"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 687.1130146484376,
+                        "r": 351.138,
+                        "b": 670.3800146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        63
+                    ]
+                }
+            ],
+            "orig": "· Twin turbo technology with freshwatercooled charge air cooler",
+            "text": "Twin turbo technology with freshwatercooled charge air cooler",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/28",
+            "parent": {
+                "cref": "#/groups/4"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 667.9130146484375,
+                        "r": 329.258,
+                        "b": 660.7800146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        37
+                    ]
+                }
+            ],
+            "orig": "· Air filter with replaceable inserts",
+            "text": "Air filter with replaceable inserts",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/29",
+            "parent": {
+                "cref": "#/groups/4"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 658.3120146484375,
+                        "r": 314.291,
+                        "b": 651.1800146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        28
+                    ]
+                }
+            ],
+            "orig": "· Wet exhaust elbow (option)",
+            "text": "Wet exhaust elbow (option)",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/30",
+            "parent": {
+                "cref": "#/groups/4"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 648.7130146484375,
+                        "r": 302.035,
+                        "b": 641.5800146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        25
+                    ]
+                }
+            ],
+            "orig": "· Loss of sea water alarm",
+            "text": "Loss of sea water alarm",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/31",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 636.2180146484375,
+                        "r": 276.864,
+                        "b": 628.2140146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "Cooling system",
+            "text": "Cooling system",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/32",
+            "parent": {
+                "cref": "#/groups/5"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 625.9120146484375,
+                        "r": 351.523,
+                        "b": 618.7790146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        38
+                    ]
+                }
+            ],
+            "orig": "· Seawater-cooled plate heat exchanger",
+            "text": "Seawater-cooled plate heat exchanger",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/33",
+            "parent": {
+                "cref": "#/groups/5"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 616.3120146484375,
+                        "r": 353.618,
+                        "b": 599.5790146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        46
+                    ]
+                }
+            ],
+            "orig": "· Coolant system prepared for hot water outlet",
+            "text": "Coolant system prepared for hot water outlet",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/34",
+            "parent": {
+                "cref": "#/groups/5"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 597.1120146484375,
+                        "r": 358.498,
+                        "b": 580.3790146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        65
+                    ]
+                }
+            ],
+            "orig": "· Easily accessible seawater pump in rear end of flywheel housing",
+            "text": "Easily accessible seawater pump in rear end of flywheel housing",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/35",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 575.0170146484376,
+                        "r": 282.543,
+                        "b": 567.0130146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "orig": "Electrical system",
+            "text": "Electrical system",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/36",
+            "parent": {
+                "cref": "#/groups/6"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 213.531,
+                        "t": 564.7110146484375,
+                        "r": 336.11,
+                        "b": 547.9780146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        53
+                    ]
+                }
+            ],
+            "orig": "· 24V/110A plus an optional extra 12V/115A alternator",
+            "text": "24V/110A plus an optional extra 12V/115A alternator",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/37",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 33.582,
+                        "t": 497.23001464843753,
+                        "r": 214.081,
+                        "b": 488.2890146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        33
+                    ]
+                }
+            ],
+            "orig": "Dimensions D13-1000 with ZF500-1A",
+            "text": "Dimensions D13-1000 with ZF500-1A",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/38",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 33.582,
+                        "t": 487.19601464843754,
+                        "r": 79.128,
+                        "b": 481.7870146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        20
+                    ]
+                }
+            ],
+            "orig": "Not for installation",
+            "text": "Not for installation",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/39",
+            "parent": {
+                "cref": "#/pictures/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 178.074,
+                        "t": 466.3280146484375,
+                        "r": 206.303,
+                        "b": 460.44401464843753,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "450 [17,1]",
+            "text": "450 [17,1]",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/40",
+            "parent": {
+                "cref": "#/pictures/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 105.092,
+                        "t": 466.3280146484375,
+                        "r": 133.732,
+                        "b": 460.44401464843753,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "639 [25,2]",
+            "text": "639 [25,2]",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/41",
+            "parent": {
+                "cref": "#/pictures/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 33.312,
+                        "t": 312.5350146484375,
+                        "r": 61.511,
+                        "b": 306.65101464843747,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "335 [13,2]",
+            "text": "335 [13,2]",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/42",
+            "parent": {
+                "cref": "#/pictures/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 31.992,
+                        "t": 379.07101464843754,
+                        "r": 60.637,
+                        "b": 373.1870146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "718 [28,3]",
+            "text": "718 [28,3]",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/43",
+            "parent": {
+                "cref": "#/pictures/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 67.05,
+                        "t": 336.9880146484375,
+                        "r": 69.692,
+                        "b": 331.98701464843754,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "orig": "q",
+            "text": "q",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/44",
+            "parent": {
+                "cref": "#/pictures/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 69.131,
+                        "t": 336.9350146484375,
+                        "r": 100.858,
+                        "b": 332.2280146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "CRANKSHAFT",
+            "text": "CRANKSHAFT",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/45",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 31.181,
+                        "t": 258.45501464843755,
+                        "r": 104.567,
+                        "b": 250.40801464843753,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "More information",
+            "text": "More information",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/46",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 31.181,
+                        "t": 234.91101464843746,
+                        "r": 167.431,
+                        "b": 171.99501464843752,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        149
+                    ]
+                }
+            ],
+            "orig": "Contact your nearest Volvo Penta dealer for more information about Volvo Penta engines and optional equipment/accessories or go to www.volvopenta.com",
+            "text": "Contact your nearest Volvo Penta dealer for more information about Volvo Penta engines and optional equipment/accessories or go to www.volvopenta.com",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/47",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 394.149,
+                        "t": 607.1070146484375,
+                        "r": 521.858,
+                        "b": 599.1030146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        31
+                    ]
+                }
+            ],
+            "orig": "Electronic Vessel Control (EVC)",
+            "text": "Electronic Vessel Control (EVC)",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/48",
+            "parent": {
+                "cref": "#/groups/7"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 394.149,
+                        "t": 596.8010146484376,
+                        "r": 552.075,
+                        "b": 560.8680146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        162
+                    ]
+                }
+            ],
+            "orig": "· Fully integrates the engines, electronics and the unique set of EVC features; Joystick Docking (available for twin engine installations), Glass Cockpit and more",
+            "text": "Fully integrates the engines, electronics and the unique set of EVC features; Joystick Docking (available for twin engine installations), Glass Cockpit and more",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/49",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 394.149,
+                        "t": 554.0890146484376,
+                        "r": 447.753,
+                        "b": 546.0850146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        12
+                    ]
+                }
+            ],
+            "orig": "Reverse gear",
+            "text": "Reverse gear",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/50",
+            "parent": {
+                "cref": "#/groups/8"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 394.149,
+                        "t": 543.7830146484375,
+                        "r": 544.739,
+                        "b": 517.4500146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        93
+                    ]
+                }
+            ],
+            "orig": "·  ZF500-1A-E and ZF500-1IV-E reverse gears, with low speed as option, electronically shifted",
+            "text": " ZF500-1A-E and ZF500-1IV-E reverse gears, with low speed as option, electronically shifted",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/51",
+            "parent": {
+                "cref": "#/groups/8"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 394.149,
+                        "t": 514.9830146484375,
+                        "r": 530.827,
+                        "b": 507.85001464843754,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        41
+                    ]
+                }
+            ],
+            "orig": "· Connection kits for Twin disc available",
+            "text": "Connection kits for Twin disc available",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/52",
+            "parent": {
+                "cref": "#/pictures/9"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 299.383,
+                        "t": 271.2700146484375,
+                        "r": 327.695,
+                        "b": 265.3860146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "621 [24,4]",
+            "text": "621 [24,4]",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/53",
+            "parent": {
+                "cref": "#/pictures/9"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 437.825,
+                        "t": 271.2700146484375,
+                        "r": 470.04,
+                        "b": 265.3860146484376,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "orig": "1447 [57,0]",
+            "text": "1447 [57,0]",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/54",
+            "parent": {
+                "cref": "#/pictures/10"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 237.552,
+                        "t": 238.51601464843748,
+                        "r": 253.552,
+                        "b": 231.38401464843753,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        3
+                    ]
+                }
+            ],
+            "orig": "IOS",
+            "text": "IOS",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/55",
+            "parent": {
+                "cref": "#/pictures/10"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 320.84,
+                        "t": 238.5010146484375,
+                        "r": 347.32,
+                        "b": 231.36801464843757,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        7
+                    ]
+                }
+            ],
+            "orig": "Android",
+            "text": "Android",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/56",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "caption",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 214.891,
+                        "t": 160.47801464843747,
+                        "r": 369.85,
+                        "b": 143.7460146484375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        70
+                    ]
+                }
+            ],
+            "orig": "Download the Volvo Penta dealer locator App for your IPhone or Android",
+            "text": "Download the Volvo Penta dealer locator App for your IPhone or Android",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/57",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 31.181,
+                        "t": 63.63601464843748,
+                        "r": 350.664,
+                        "b": 51.086014648437526,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        224
+                    ]
+                }
+            ],
+            "orig": "Not all models, standard equipment and accessories are available in all countries. All specifications are subject to change without notice. The engine illustrated may not be entirely identical to production standard engines.",
+            "text": "Not all models, standard equipment and accessories are available in all countries. All specifications are subject to change without notice. The engine illustrated may not be entirely identical to production standard engines.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/58",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 421.696,
+                        "t": 50.34501464843754,
+                        "r": 527.911,
+                        "b": 43.21301464843748,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "SE-405 08 Göteborg, Sweden",
+            "text": "SE-405 08 Göteborg, Sweden",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/59",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 437.702,
+                        "t": 62.121014648437495,
+                        "r": 511.905,
+                        "b": 36.58401464843746,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        33
+                    ]
+                }
+            ],
+            "orig": "AB Volvo Penta www.volvopenta.com",
+            "text": "AB Volvo Penta www.volvopenta.com",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/60",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 567.097,
+                        "t": 171.89201464843745,
+                        "r": 573.338,
+                        "b": 45.354014648437555,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        38
+                    ]
+                }
+            ],
+            "orig": "English 12-2017 © 2017 AB Volvo Penta.",
+            "text": "English 12-2017 © 2017 AB Volvo Penta.",
+            "formatting": null,
+            "hyperlink": null
+        }
+    ],
+    "pictures": [
+        {
+            "self_ref": "#/pictures/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/1"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 43.12568283081055,
+                        "t": 781.1371192932129,
+                        "r": 179.66461181640625,
+                        "b": 738.4250411987305,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 507.32391357421875,
+                        "t": 781.2470779418945,
+                        "r": 564.202392578125,
+                        "b": 738.7783966064453,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 116.10894012451172,
+                        "t": 719.5599365234375,
+                        "r": 485.0837097167969,
+                        "b": 513.8540954589844,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 398.5436096191406,
+                        "t": 504.57940673828125,
+                        "r": 564.1758422851562,
+                        "b": 369.4566650390625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 395.2529602050781,
+                        "t": 360.9689636230469,
+                        "r": 561.2391967773438,
+                        "b": 234.84100341796875,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/5",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 399.7590637207031,
+                        "t": 229.60845947265625,
+                        "r": 557.00634765625,
+                        "b": 97.24951171875,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/6",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 425.33221435546875,
+                        "t": 76.9014892578125,
+                        "r": 540.5897216796875,
+                        "b": 44.19805908203125,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/7",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/39"
+                },
+                {
+                    "cref": "#/texts/40"
+                },
+                {
+                    "cref": "#/texts/41"
+                },
+                {
+                    "cref": "#/texts/42"
+                },
+                {
+                    "cref": "#/texts/43"
+                },
+                {
+                    "cref": "#/texts/44"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 31.168153762817383,
+                        "t": 468.92919921875,
+                        "r": 222.28726196289062,
+                        "b": 286.83636474609375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/8",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 404.5902404785156,
+                        "t": 758.6919326782227,
+                        "r": 537.3011474609375,
+                        "b": 621.7618865966797,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/9",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/52"
+                },
+                {
+                    "cref": "#/texts/53"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 273.0878601074219,
+                        "t": 435.9184265136719,
+                        "r": 547.6082763671875,
+                        "b": 265.95098876953125,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/10",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/54"
+                },
+                {
+                    "cref": "#/texts/55"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 214.16883850097656,
+                        "t": 240.6783447265625,
+                        "r": 367.1373596191406,
+                        "b": 164.45794677734375,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/11",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 417.2684020996094,
+                        "t": 107.96002197265625,
+                        "r": 532.8758544921875,
+                        "b": 74.84991455078125,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        }
+    ],
+    "tables": [
+        {
+            "self_ref": "#/tables/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 41.35125732421875,
+                        "t": 446.6105041503906,
+                        "r": 368.3674621582031,
+                        "b": 223.1685791015625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 400.776,
+                            "r": 119.071,
+                            "b": 408.8,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Engine designation",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 400.776,
+                            "r": 251.447,
+                            "b": 408.8,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "D13-1000",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 415.346,
+                            "r": 173.7,
+                            "b": 423.37,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "No. of cylinders and configuration",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 415.346,
+                            "r": 241.277,
+                            "b": 423.37,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "in-line 6",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 429.916,
+                            "r": 123.337,
+                            "b": 437.94,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Method of operation",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 429.916,
+                            "r": 355.962,
+                            "b": 448.74,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "4-stroke, direct-injected, turbocharged diesel engine with charge air cooler",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 455.286,
+                            "r": 125.704,
+                            "b": 463.31,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Bore/stroke, mm (in.)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 455.286,
+                            "r": 294.26,
+                            "b": 463.31,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "131/158 (5.16/6.22)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 469.508,
+                            "r": 122.473,
+                            "b": 477.88,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Displacement, l (in 3 )",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 469.856,
+                            "r": 268.079,
+                            "b": 477.88,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "12.78 (779.7)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 484.426,
+                            "r": 116.227,
+                            "b": 492.45,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Compression ratio",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 484.426,
+                            "r": 236.687,
+                            "b": 492.45,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "17.1:1",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 498.996,
+                            "r": 143.713,
+                            "b": 507.02,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Dry weight bobtail, kg (lb)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 498.996,
+                            "r": 263.012,
+                            "b": 507.02,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "1635 (3605)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 513.566,
+                            "r": 199.603,
+                            "b": 521.5899999999999,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 7,
+                        "end_row_offset_idx": 8,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Crankshaft power, kW (hp) @2400rpm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 513.566,
+                            "r": 257.648,
+                            "b": 521.5899999999999,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 7,
+                        "end_row_offset_idx": 8,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "735 (1000)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 528.136,
+                            "r": 184.105,
+                            "b": 536.16,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 8,
+                        "end_row_offset_idx": 9,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Max. torque,Nm (lbf.ft) @1800 rpm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 528.136,
+                            "r": 263.417,
+                            "b": 536.16,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 8,
+                        "end_row_offset_idx": 9,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "3527 (2602)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 542.7059999999999,
+                            "r": 126.703,
+                            "b": 550.73,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 9,
+                        "end_row_offset_idx": 10,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Emission compliance",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 542.7059999999999,
+                            "r": 351.993,
+                            "b": 561.53,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 9,
+                        "end_row_offset_idx": 10,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "IMO NOx, EU RCD Stage II, US EPA Tier 3",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 568.076,
+                            "r": 70.813,
+                            "b": 576.0999999999999,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 10,
+                        "end_row_offset_idx": 11,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Rating",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 568.076,
+                            "r": 222.467,
+                            "b": 576.0999999999999,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 10,
+                        "end_row_offset_idx": 11,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "R5",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 582.646,
+                            "r": 173.692,
+                            "b": 590.67,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 11,
+                        "end_row_offset_idx": 12,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Recommended fuel to conform to",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 582.646,
+                            "r": 347.369,
+                            "b": 601.47,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 11,
+                        "end_row_offset_idx": 12,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "ASTM-D975 1-D & 2-D, EN 590 or JIS KK 2204",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.306,
+                            "t": 608.015,
+                            "r": 148.591,
+                            "b": 616.04,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 12,
+                        "end_row_offset_idx": 13,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Flywheel housing/SAE size",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 210.929,
+                            "t": 608.015,
+                            "r": 250.088,
+                            "b": 616.04,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 12,
+                        "end_row_offset_idx": 13,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "14'/SAE1",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 13,
+                "num_cols": 2,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 400.776,
+                                "r": 119.071,
+                                "b": 408.8,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Engine designation",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 400.776,
+                                "r": 251.447,
+                                "b": 408.8,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "D13-1000",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 415.346,
+                                "r": 173.7,
+                                "b": 423.37,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "No. of cylinders and configuration",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 415.346,
+                                "r": 241.277,
+                                "b": 423.37,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "in-line 6",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 429.916,
+                                "r": 123.337,
+                                "b": 437.94,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Method of operation",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 429.916,
+                                "r": 355.962,
+                                "b": 448.74,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "4-stroke, direct-injected, turbocharged diesel engine with charge air cooler",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 455.286,
+                                "r": 125.704,
+                                "b": 463.31,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Bore/stroke, mm (in.)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 455.286,
+                                "r": 294.26,
+                                "b": 463.31,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "131/158 (5.16/6.22)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 469.508,
+                                "r": 122.473,
+                                "b": 477.88,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Displacement, l (in 3 )",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 469.856,
+                                "r": 268.079,
+                                "b": 477.88,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "12.78 (779.7)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 484.426,
+                                "r": 116.227,
+                                "b": 492.45,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Compression ratio",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 484.426,
+                                "r": 236.687,
+                                "b": 492.45,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "17.1:1",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 498.996,
+                                "r": 143.713,
+                                "b": 507.02,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Dry weight bobtail, kg (lb)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 498.996,
+                                "r": 263.012,
+                                "b": 507.02,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "1635 (3605)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 513.566,
+                                "r": 199.603,
+                                "b": 521.5899999999999,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 7,
+                            "end_row_offset_idx": 8,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Crankshaft power, kW (hp) @2400rpm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 513.566,
+                                "r": 257.648,
+                                "b": 521.5899999999999,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 7,
+                            "end_row_offset_idx": 8,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "735 (1000)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 528.136,
+                                "r": 184.105,
+                                "b": 536.16,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 8,
+                            "end_row_offset_idx": 9,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Max. torque,Nm (lbf.ft) @1800 rpm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 528.136,
+                                "r": 263.417,
+                                "b": 536.16,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 8,
+                            "end_row_offset_idx": 9,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "3527 (2602)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 542.7059999999999,
+                                "r": 126.703,
+                                "b": 550.73,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 9,
+                            "end_row_offset_idx": 10,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Emission compliance",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 542.7059999999999,
+                                "r": 351.993,
+                                "b": 561.53,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 9,
+                            "end_row_offset_idx": 10,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "IMO NOx, EU RCD Stage II, US EPA Tier 3",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 568.076,
+                                "r": 70.813,
+                                "b": 576.0999999999999,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 10,
+                            "end_row_offset_idx": 11,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Rating",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 568.076,
+                                "r": 222.467,
+                                "b": 576.0999999999999,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 10,
+                            "end_row_offset_idx": 11,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "R5",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 582.646,
+                                "r": 173.692,
+                                "b": 590.67,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 11,
+                            "end_row_offset_idx": 12,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Recommended fuel to conform to",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 582.646,
+                                "r": 347.369,
+                                "b": 601.47,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 11,
+                            "end_row_offset_idx": 12,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "ASTM-D975 1-D & 2-D, EN 590 or JIS KK 2204",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.306,
+                                "t": 608.015,
+                                "r": 148.591,
+                                "b": 616.04,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 12,
+                            "end_row_offset_idx": 13,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Flywheel housing/SAE size",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 210.929,
+                                "t": 608.015,
+                                "r": 250.088,
+                                "b": 616.04,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 12,
+                            "end_row_offset_idx": 13,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "14'/SAE1",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+        "1": {
+            "size": {
+                "width": 595.2760009765625,
+                "height": 841.8900146484375
+            },
+            "image": null,
+            "page_no": 1
+        },
+        "2": {
+            "size": {
+                "width": 595.2760009765625,
+                "height": 841.8900146484375
+            },
+            "image": null,
+            "page_no": 2
+        }
+    }
+}

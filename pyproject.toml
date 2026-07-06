@@ -37,7 +37,7 @@ dev = [
 
 [tool.codespell]
 # Ignore specific files
-skip = '.git,.venv,env,venv,.venv3,.mypy_cache,.ruff_cache,__pycache__,*.ipynb'
+skip = '.git,.venv,env,venv,.venv3,.mypy_cache,.ruff_cache,__pycache__,*.ipynb,benchmark/out'
 
 [tool.ruff]
 # Maximum line length before wrapping
@@ -59,6 +59,10 @@ select = [
 ignore = [
     "B008",  # FastAPI uses function calls in defaults for dependency injection (File, Form, Depends, etc.)
 ]
+
+[tool.ruff.lint.per-file-ignores]
+# benchmark.py sets thread-count env vars before importing torch/docling, so imports intentionally follow that setup
+"benchmark/benchmark.py" = ["E402"]
 
 [tool.mypy]
 # Target Python version for type checking

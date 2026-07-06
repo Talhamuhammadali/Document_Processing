@@ -16,3 +16,4 @@ repos:
     hooks:
     -   id: codespell
         args: ["-w"]
+        exclude: '^benchmark/out/'

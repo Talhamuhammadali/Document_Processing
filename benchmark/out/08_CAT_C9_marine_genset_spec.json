@@ -1,0 +1,4870 @@
+{
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "08_CAT_C9_marine_genset_spec",
+    "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 16531489917855339468,
+        "filename": "08_CAT_C9_marine_genset_spec.pdf",
+        "uri": null
+    },
+    "furniture": {
+        "self_ref": "#/furniture",
+        "parent": null,
+        "children": [],
+        "content_layer": "furniture",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "body": {
+        "self_ref": "#/body",
+        "parent": null,
+        "children": [
+            {
+                "cref": "#/pictures/0"
+            },
+            {
+                "cref": "#/texts/4"
+            },
+            {
+                "cref": "#/texts/5"
+            },
+            {
+                "cref": "#/texts/6"
+            },
+            {
+                "cref": "#/texts/7"
+            },
+            {
+                "cref": "#/texts/8"
+            },
+            {
+                "cref": "#/texts/9"
+            },
+            {
+                "cref": "#/texts/10"
+            },
+            {
+                "cref": "#/texts/11"
+            },
+            {
+                "cref": "#/texts/12"
+            },
+            {
+                "cref": "#/texts/13"
+            },
+            {
+                "cref": "#/texts/14"
+            },
+            {
+                "cref": "#/texts/15"
+            },
+            {
+                "cref": "#/texts/16"
+            },
+            {
+                "cref": "#/texts/17"
+            },
+            {
+                "cref": "#/texts/18"
+            },
+            {
+                "cref": "#/texts/19"
+            },
+            {
+                "cref": "#/texts/20"
+            },
+            {
+                "cref": "#/texts/21"
+            },
+            {
+                "cref": "#/texts/22"
+            },
+            {
+                "cref": "#/texts/23"
+            },
+            {
+                "cref": "#/texts/24"
+            },
+            {
+                "cref": "#/texts/25"
+            },
+            {
+                "cref": "#/texts/26"
+            },
+            {
+                "cref": "#/groups/0"
+            },
+            {
+                "cref": "#/texts/52"
+            },
+            {
+                "cref": "#/texts/53"
+            },
+            {
+                "cref": "#/texts/54"
+            },
+            {
+                "cref": "#/tables/0"
+            },
+            {
+                "cref": "#/groups/1"
+            },
+            {
+                "cref": "#/texts/56"
+            },
+            {
+                "cref": "#/texts/57"
+            },
+            {
+                "cref": "#/texts/58"
+            },
+            {
+                "cref": "#/texts/59"
+            },
+            {
+                "cref": "#/texts/60"
+            },
+            {
+                "cref": "#/pictures/1"
+            },
+            {
+                "cref": "#/tables/1"
+            },
+            {
+                "cref": "#/groups/2"
+            },
+            {
+                "cref": "#/texts/74"
+            },
+            {
+                "cref": "#/texts/75"
+            },
+            {
+                "cref": "#/texts/76"
+            },
+            {
+                "cref": "#/texts/77"
+            },
+            {
+                "cref": "#/texts/78"
+            },
+            {
+                "cref": "#/texts/79"
+            },
+            {
+                "cref": "#/texts/80"
+            },
+            {
+                "cref": "#/texts/81"
+            },
+            {
+                "cref": "#/texts/82"
+            },
+            {
+                "cref": "#/texts/83"
+            }
+        ],
+        "content_layer": "body",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "groups": [
+        {
+            "self_ref": "#/groups/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/27"
+                },
+                {
+                    "cref": "#/texts/28"
+                },
+                {
+                    "cref": "#/texts/29"
+                },
+                {
+                    "cref": "#/texts/30"
+                },
+                {
+                    "cref": "#/texts/31"
+                },
+                {
+                    "cref": "#/texts/32"
+                },
+                {
+                    "cref": "#/texts/33"
+                },
+                {
+                    "cref": "#/texts/34"
+                },
+                {
+                    "cref": "#/texts/35"
+                },
+                {
+                    "cref": "#/texts/36"
+                },
+                {
+                    "cref": "#/texts/37"
+                },
+                {
+                    "cref": "#/texts/38"
+                },
+                {
+                    "cref": "#/texts/39"
+                },
+                {
+                    "cref": "#/texts/40"
+                },
+                {
+                    "cref": "#/texts/41"
+                },
+                {
+                    "cref": "#/texts/42"
+                },
+                {
+                    "cref": "#/texts/43"
+                },
+                {
+                    "cref": "#/texts/44"
+                },
+                {
+                    "cref": "#/texts/45"
+                },
+                {
+                    "cref": "#/texts/46"
+                },
+                {
+                    "cref": "#/texts/47"
+                },
+                {
+                    "cref": "#/texts/48"
+                },
+                {
+                    "cref": "#/texts/49"
+                },
+                {
+                    "cref": "#/texts/50"
+                },
+                {
+                    "cref": "#/texts/51"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "group",
+            "label": "key_value_area"
+        },
+        {
+            "self_ref": "#/groups/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/55"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "group",
+            "label": "key_value_area"
+        },
+        {
+            "self_ref": "#/groups/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/73"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "group",
+            "label": "key_value_area"
+        }
+    ],
+    "texts": [
+        {
+            "self_ref": "#/texts/0",
+            "parent": {
+                "cref": "#/pictures/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.775,
+                        "t": 507.262,
+                        "r": 92.679,
+                        "b": 500.171,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "Image is a",
+            "text": "Image is a",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/1",
+            "parent": {
+                "cref": "#/pictures/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.775,
+                        "t": 498.762,
+                        "r": 126.031,
+                        "b": 491.671,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        20
+                    ]
+                }
+            ],
+            "orig": "representation only,",
+            "text": "representation only,",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/2",
+            "parent": {
+                "cref": "#/pictures/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.775,
+                        "t": 490.262,
+                        "r": 120.695,
+                        "b": 483.171,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "and may not show",
+            "text": "and may not show",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/3",
+            "parent": {
+                "cref": "#/pictures/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.775,
+                        "t": 481.762,
+                        "r": 131.815,
+                        "b": 474.671,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        21
+                    ]
+                }
+            ],
+            "orig": "optional attachments.",
+            "text": "optional attachments.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 445.263,
+                        "r": 195.328,
+                        "b": 434.46,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        18
+                    ]
+                }
+            ],
+            "orig": "STANDARD EQUIPMENT",
+            "text": "STANDARD EQUIPMENT",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/5",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 421.169,
+                        "r": 123.022,
+                        "b": 413.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "Air Inlet System",
+            "text": "Air Inlet System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/6",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 411.079,
+                        "r": 277.579,
+                        "b": 393.101,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        88
+                    ]
+                }
+            ],
+            "orig": "Corrosion-resistant sea water aftercooler core, standard duty air cleaner (open element)",
+            "text": "Corrosion-resistant sea water aftercooler core, standard duty air cleaner (open element)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/7",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 385.169,
+                        "r": 121.51,
+                        "b": 377.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "Control System",
+            "text": "Control System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/8",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 375.079,
+                        "r": 284.059,
+                        "b": 357.102,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        110
+                    ]
+                }
+            ],
+            "orig": "Electronic control module (A-III), Hydraulic Electronic Unit Injection (HEUI) fuel system, SAE J1939 data link",
+            "text": "Electronic control module (A-III), Hydraulic Electronic Unit Injection (HEUI) fuel system, SAE J1939 data link",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/9",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 349.169,
+                        "r": 123.013,
+                        "b": 341.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "Cooling System",
+            "text": "Cooling System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/10",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 339.079,
+                        "r": 274.06,
+                        "b": 301.102,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        206
+                    ]
+                }
+            ],
+            "orig": "Gear driven auxiliary sea water pump, belt driven centrifugal jacket water pump, heat exchanger, expansion tank, thermostat and housing, engine oil cooler, transmission oil cooler, auxiliary sea water lines",
+            "text": "Gear driven auxiliary sea water pump, belt driven centrifugal jacket water pump, heat exchanger, expansion tank, thermostat and housing, engine oil cooler, transmission oil cooler, auxiliary sea water lines",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/11",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 293.169,
+                        "r": 124.525,
+                        "b": 285.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "Exhaust System",
+            "text": "Exhaust System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/12",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 283.079,
+                        "r": 247.087,
+                        "b": 275.102,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        45
+                    ]
+                }
+            ],
+            "orig": "Watercooled exhaust manifold and turbocharger",
+            "text": "Watercooled exhaust manifold and turbocharger",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/13",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 267.169,
+                        "r": 108.019,
+                        "b": 259.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "orig": "Fuel System",
+            "text": "Fuel System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/14",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 257.07899999999995,
+                        "r": 278.083,
+                        "b": 239.10199999999998,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        66
+                    ]
+                }
+            ],
+            "orig": "Fuel priming pump, fuel transfer pump, fuel filter - front service",
+            "text": "Fuel priming pump, fuel transfer pump, fuel filter - front service",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/15",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 231.16899999999998,
+                        "r": 111.016,
+                        "b": 223.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "orig": "Lube System",
+            "text": "Lube System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/16",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 221.07899999999995,
+                        "r": 262.576,
+                        "b": 193.10199999999998,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        144
+                    ]
+                }
+            ],
+            "orig": "Crankcase breather, oil filter - RH service, oil level gauge - LH service, oil filler, oil pan, gear driven oil pump, oil pan drain - LH service",
+            "text": "Crankcase breather, oil filter - RH service, oil level gauge - LH service, oil filler, oil pan, gear driven oil pump, oil pan drain - LH service",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/17",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 185.16899999999998,
+                        "r": 130.006,
+                        "b": 177.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        15
+                    ]
+                }
+            ],
+            "orig": "Mounting System",
+            "text": "Mounting System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/18",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 175.07899999999995,
+                        "r": 163.549,
+                        "b": 167.10199999999998,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "Front support - adjustable",
+            "text": "Front support - adjustable",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/19",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 159.16899999999998,
+                        "r": 134.02,
+                        "b": 151.067,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "orig": "Protection System",
+            "text": "Protection System",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/20",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 149.07899999999995,
+                        "r": 168.553,
+                        "b": 141.10199999999998,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        28
+                    ]
+                }
+            ],
+            "orig": "Electronic overspeed shutoff",
+            "text": "Electronic overspeed shutoff",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/21",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 133.16899999999998,
+                        "r": 88.516,
+                        "b": 125.06700000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        7
+                    ]
+                }
+            ],
+            "orig": "General",
+            "text": "General",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/22",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 123.07899999999995,
+                        "r": 278.605,
+                        "b": 95.10199999999998,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        132
+                    ]
+                },
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.704,
+                        "t": 737.44,
+                        "r": 349.044,
+                        "b": 710.434,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        133,
+                        135
+                    ]
+                }
+            ],
+            "orig": "Vibration damper and guard, Caterpillar yellow paint, lifting eyes, engine mounted 40-pin customer connector, service tool connector C9",
+            "text": "Vibration damper and guard, Caterpillar yellow paint, lifting eyes, engine mounted 40-pin customer connector, service tool connector C9",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/23",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 359.985,
+                        "t": 748.723,
+                        "r": 474.029,
+                        "b": 704.12,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        27
+                    ]
+                }
+            ],
+            "orig": "MARINE GENERATOR SET ENGINE",
+            "text": "MARINE GENERATOR SET ENGINE",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/24",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.704,
+                        "t": 696.783,
+                        "r": 345.057,
+                        "b": 686.88,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        5
+                    ]
+                }
+            ],
+            "orig": "PRIME",
+            "text": "PRIME",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/25",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 674.763,
+                        "r": 407.923,
+                        "b": 663.96,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "SPECIFICATIONS",
+            "text": "SPECIFICATIONS",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/26",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 654.669,
+                        "r": 419.011,
+                        "b": 646.567,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "I-6, 4-Stroke-Cycle-Diesel",
+            "text": "I-6, 4-Stroke-Cycle-Diesel",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/27",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 641.123,
+                        "r": 540.484,
+                        "b": 633.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        71
+                    ]
+                }
+            ],
+            "orig": "Emissions . . . . . . . . . . . . . . . . . . IMO/EPA Tier II compliant",
+            "text": "Emissions . . . . . . . . . . . . . . . . . . IMO/EPA Tier II compliant",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/28",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 631.123,
+                        "r": 540.475,
+                        "b": 623.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        76
+                    ]
+                }
+            ],
+            "orig": "Displacement . . . . . . . . . . . . . . . . . . . . . . 8.8 L (538 cu. in.)",
+            "text": "Displacement . . . . . . . . . . . . . . . . . . . . . . 8.8 L (538 cu. in.)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/29",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 621.123,
+                        "r": 540.447,
+                        "b": 613.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        77
+                    ]
+                }
+            ],
+            "orig": "Rated Engine Speed . . . . . . . . . . . . . . . . . . . . . . . . . . . 1500",
+            "text": "Rated Engine Speed . . . . . . . . . . . . . . . . . . . . . . . . . . . 1500",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/30",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 611.123,
+                        "r": 465.432,
+                        "b": 603.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        64
+                    ]
+                }
+            ],
+            "orig": "Bore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Bore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/31",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 469.932,
+                        "t": 611.123,
+                        "r": 540.456,
+                        "b": 603.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "orig": "112 mm (4.41 in.)",
+            "text": "112 mm (4.41 in.)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/32",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 601.123,
+                        "r": 336.984,
+                        "b": 593.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        6
+                    ]
+                }
+            ],
+            "orig": "Stroke",
+            "text": "Stroke",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/33",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 341.43,
+                        "t": 601.123,
+                        "r": 465.432,
+                        "b": 593.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        55
+                    ]
+                }
+            ],
+            "orig": ". . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/34",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 469.932,
+                        "t": 601.123,
+                        "r": 540.456,
+                        "b": 593.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "orig": "149 mm (5.87 in.)",
+            "text": "149 mm (5.87 in.)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/35",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 591.123,
+                        "r": 540.484,
+                        "b": 583.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        71
+                    ]
+                }
+            ],
+            "orig": "Aspiration . . . . . . . . . . . . . . . . . . Turbocharged-Aftercooled",
+            "text": "Aspiration . . . . . . . . . . . . . . . . . . Turbocharged-Aftercooled",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/36",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 581.123,
+                        "r": 540.439,
+                        "b": 573.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        85
+                    ]
+                }
+            ],
+            "orig": "Governor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Electronic",
+            "text": "Governor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Electronic",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/37",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 571.123,
+                        "r": 540.466,
+                        "b": 563.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        72
+                    ]
+                }
+            ],
+            "orig": "Cooling System. . . . . . . . . . . . . . . . . . . . . . Heat Exchanger",
+            "text": "Cooling System. . . . . . . . . . . . . . . . . . . . . . Heat Exchanger",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/38",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 561.123,
+                        "r": 540.52,
+                        "b": 553.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        68
+                    ]
+                }
+            ],
+            "orig": "Weight, Net Dry (approx). . . . . . . . . . . . . 947 kg (2,088 lbs)",
+            "text": "Weight, Net Dry (approx). . . . . . . . . . . . . 947 kg (2,088 lbs)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/39",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 551.123,
+                        "r": 368.485,
+                        "b": 543.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        15
+                    ]
+                }
+            ],
+            "orig": "Refill Capacity",
+            "text": "Refill Capacity",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/40",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 319.228,
+                        "t": 541.123,
+                        "r": 380.959,
+                        "b": 533.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "Cooling System",
+            "text": "Cooling System",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/41",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 385.45,
+                        "t": 541.123,
+                        "r": 477.952,
+                        "b": 533.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        41
+                    ]
+                }
+            ],
+            "orig": ". . . . . . . . . . . . . . . . . . . . .",
+            "text": ". . . . . . . . . . . . . . . . . . . . .",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/42",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 482.452,
+                        "t": 541.123,
+                        "r": 540.484,
+                        "b": 533.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        15
+                    ]
+                }
+            ],
+            "orig": "47 L (12.4 gal)",
+            "text": "47 L (12.4 gal)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/43",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 319.228,
+                        "t": 531.123,
+                        "r": 482.938,
+                        "b": 523.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        58
+                    ]
+                }
+            ],
+            "orig": "Lube Oil System. . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Lube Oil System. . . . . . . . . . . . . . . . . . . . . .",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/44",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 487.447,
+                        "t": 531.123,
+                        "r": 540.475,
+                        "b": 523.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "orig": "32 L (8.5 gal)",
+            "text": "32 L (8.5 gal)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/45",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 521.123,
+                        "r": 510.442,
+                        "b": 513.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        73
+                    ]
+                }
+            ],
+            "orig": "Oil Change Interval . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Oil Change Interval . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/46",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 514.942,
+                        "t": 521.123,
+                        "r": 540.457,
+                        "b": 513.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        6
+                    ]
+                }
+            ],
+            "orig": "500 hr",
+            "text": "500 hr",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/47",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 319.228,
+                        "t": 511.123,
+                        "r": 504.286,
+                        "b": 503.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        44
+                    ]
+                }
+            ],
+            "orig": "Caterpillar Diesel Engine Oil 10W30 or 15W40",
+            "text": "Caterpillar Diesel Engine Oil 10W30 or 15W40",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/48",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 501.123,
+                        "r": 540.502,
+                        "b": 493.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        65
+                    ]
+                }
+            ],
+            "orig": "Rotation (from flywheel end) . . . . . . . . . . Counterclockwise",
+            "text": "Rotation (from flywheel end) . . . . . . . . . . Counterclockwise",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/49",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 491.123,
+                        "r": 540.484,
+                        "b": 483.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        67
+                    ]
+                }
+            ],
+            "orig": "Flywheel and flywheel housing . . . . . . . . . . . . . . SAE No. 1",
+            "text": "Flywheel and flywheel housing . . . . . . . . . . . . . . SAE No. 1",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/50",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 481.123,
+                        "r": 540.439,
+                        "b": 473.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        85
+                    ]
+                }
+            ],
+            "orig": "Flywheel Teeth. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113",
+            "text": "Flywheel Teeth. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/51",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.975,
+                        "t": 471.123,
+                        "r": 540.52,
+                        "b": 463.146,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        58
+                    ]
+                }
+            ],
+            "orig": "Max. Exhaust Backpressure. . . . 10.0 kPa (40.2 in. water)",
+            "text": "Max. Exhaust Backpressure. . . . 10.0 kPa (40.2 in. water)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/52",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 311.0,
+                        "t": 445.263,
+                        "r": 465.032,
+                        "b": 434.46,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        20
+                    ]
+                }
+            ],
+            "orig": "OPTIONAL ATTACHMENTS",
+            "text": "OPTIONAL ATTACHMENTS",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/53",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 311.0,
+                        "t": 421.079,
+                        "r": 485.564,
+                        "b": 169.66100000000006,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        534
+                    ]
+                }
+            ],
+            "orig": "Air cleaner/fumes disposal system (closed) Air inlet heater Alternator belt guard Charging alternator (12 or 24 V) Coolant level sensor Coolant recovery tank Crankshaft pulley Damper guard Double wall oil lines Dress-up kit Duplex fuel filters Duplex oil filters Electric starting motor (12 or 24 V) Exhaust elbow, pipe, flexible fitting, flange Flexible fuel lines Fuel cooler Fuel temperature sensor LH service oil filler Manual oil sump pump Oil pan drain Oil sump pump lines Regular duty air cleaner (enclosed element) White paint",
+            "text": "Air cleaner/fumes disposal system (closed) Air inlet heater Alternator belt guard Charging alternator (12 or 24 V) Coolant level sensor Coolant recovery tank Crankshaft pulley Damper guard Double wall oil lines Dress-up kit Duplex fuel filters Duplex oil filters Electric starting motor (12 or 24 V) Exhaust elbow, pipe, flexible fitting, flange Flexible fuel lines Fuel cooler Fuel temperature sensor LH service oil filler Manual oil sump pump Oil pan drain Oil sump pump lines Regular duty air cleaner (enclosed element) White paint",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/54",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 310.702,
+                        "t": 157.596,
+                        "r": 438.707,
+                        "b": 146.79399999999998,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "PERFORMANCE DATA",
+            "text": "PERFORMANCE DATA",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/55",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 500.584,
+                        "t": 742.736,
+                        "r": 540.044,
+                        "b": 709.873,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "215 bkW 189 bkW 162 bkW",
+            "text": "215 bkW 189 bkW 162 bkW",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/56",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 458.17,
+                        "t": 696.783,
+                        "r": 539.625,
+                        "b": 686.88,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        15
+                    ]
+                }
+            ],
+            "orig": "50 Hz, 1500 rpm",
+            "text": "50 Hz, 1500 rpm",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/57",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 29.638000000000034,
+                        "r": 100.129,
+                        "b": 23.43399999999997,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "orig": "LEHM3329-02",
+            "text": "LEHM3329-02",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/58",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 504.347,
+                        "t": 29.638000000000034,
+                        "r": 540.152,
+                        "b": 23.43399999999997,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "orig": "Page 1 of 2",
+            "text": "Page 1 of 2",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/59",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 308.084,
+                        "t": 755.415,
+                        "r": 540.323,
+                        "b": 741.012,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        30
+                    ]
+                }
+            ],
+            "orig": "C9 MARINE GENERATOR SET ENGINE",
+            "text": "C9 MARINE GENERATOR SET ENGINE",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/60",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 468.771,
+                        "t": 733.529,
+                        "r": 542.814,
+                        "b": 725.427,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        15
+                    ]
+                }
+            ],
+            "orig": "215/189/162 bkW",
+            "text": "215/189/162 bkW",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/61",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 217.886,
+                        "t": 470.77,
+                        "r": 224.559,
+                        "b": 459.968,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "orig": "1",
+            "text": "1",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/62",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 405.897,
+                        "t": 470.77,
+                        "r": 412.569,
+                        "b": 459.968,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "orig": "2",
+            "text": "2",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/63",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 161.285,
+                        "t": 433.269,
+                        "r": 168.731,
+                        "b": 423.927,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "03",
+            "text": "03",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/64",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 393.966,
+                        "t": 433.269,
+                        "r": 401.412,
+                        "b": 423.927,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "03",
+            "text": "03",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/65",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 109.086,
+                        "t": 541.719,
+                        "r": 118.428,
+                        "b": 534.273,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "01",
+            "text": "01",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/66",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 490.782,
+                        "t": 578.639,
+                        "r": 497.454,
+                        "b": 567.837,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "orig": "3",
+            "text": "3",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/67",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 305.685,
+                        "t": 541.799,
+                        "r": 315.027,
+                        "b": 534.353,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "01",
+            "text": "01",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/68",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 515.021,
+                        "t": 541.799,
+                        "r": 524.363,
+                        "b": 534.353,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "01",
+            "text": "01",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/69",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 161.541,
+                        "t": 681.664,
+                        "r": 168.986,
+                        "b": 672.322,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "03",
+            "text": "03",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/70",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 393.54,
+                        "t": 681.664,
+                        "r": 400.986,
+                        "b": 672.322,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        2
+                    ]
+                }
+            ],
+            "orig": "03",
+            "text": "03",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/71",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 189.517,
+                        "t": 709.702,
+                        "r": 235.646,
+                        "b": 700.839,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "Right Side",
+            "text": "Right Side",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/72",
+            "parent": {
+                "cref": "#/pictures/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 391.796,
+                        "t": 709.702,
+                        "r": 415.136,
+                        "b": 700.839,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        5
+                    ]
+                }
+            ],
+            "orig": "Front",
+            "text": "Front",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/73",
+            "parent": {
+                "cref": "#/groups/2"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 163.861,
+                        "t": 320.726,
+                        "r": 320.938,
+                        "b": 312.749,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        41
+                    ]
+                }
+            ],
+            "orig": "Note: Do not use for installation design.",
+            "text": "Note: Do not use for installation design.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/74",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 267.581,
+                        "r": 178.588,
+                        "b": 256.778,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "orig": "RATING CONDITIONS",
+            "text": "RATING CONDITIONS",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/75",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 247.60799999999995,
+                        "r": 278.101,
+                        "b": 169.54099999999994,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        394
+                    ]
+                }
+            ],
+            "orig": "Power at declared engine speed is in accordance with ISO3046-1:2002E. Caterpillar maintains ISO9001:1994/QS-9000 approved engine test facilities to assure accurate calibration of test equipment. Electronically controlled engines are set at the factory at the advertised power corrected to standard ambient conditions. The published fuel consumption rates are in accordance with ISO3046-1:2002E.",
+            "text": "Power at declared engine speed is in accordance with ISO3046-1:2002E. Caterpillar maintains ISO9001:1994/QS-9000 approved engine test facilities to assure accurate calibration of test equipment. Electronically controlled engines are set at the factory at the advertised power corrected to standard ambient conditions. The published fuel consumption rates are in accordance with ISO3046-1:2002E.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/76",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 311.148,
+                        "t": 247.60799999999995,
+                        "r": 535.54,
+                        "b": 189.54099999999994,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        320
+                    ]
+                }
+            ],
+            "orig": "Fuel rates are based on fuel oil of 35° API [16°C (60°F)] gravity having an LHV of 42 780 kJ/kg (18,390 Btu/lb) when used at 29°C (85°F) and weighing 838.9 g/L (7.001 lb/U.S. gal). Additional ratings may be available for specific customer requirements. Consult your Caterpillar representative for additional information.",
+            "text": "Fuel rates are based on fuel oil of 35° API [16°C (60°F)] gravity having an LHV of 42 780 kJ/kg (18,390 Btu/lb) when used at 29°C (85°F) and weighing 838.9 g/L (7.001 lb/U.S. gal). Additional ratings may be available for specific customer requirements. Consult your Caterpillar representative for additional information.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/77",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 55.321,
+                        "t": 128.54200000000003,
+                        "r": 521.423,
+                        "b": 106.33699999999999,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        337
+                    ]
+                }
+            ],
+            "orig": "Performance data is calculated in accordance with tolerances and conditions stated in this specification sheet and is only intended for purposes of comparison with other manufacturers' engines. Actual engine performance may vary according to the particular application of the engine and operating conditions beyond Caterpillar's control.",
+            "text": "Performance data is calculated in accordance with tolerances and conditions stated in this specification sheet and is only intended for purposes of comparison with other manufacturers' engines. Actual engine performance may vary according to the particular application of the engine and operating conditions beyond Caterpillar's control.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/78",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 55.321,
+                        "t": 100.45000000000005,
+                        "r": 536.732,
+                        "b": 78.245,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        344
+                    ]
+                }
+            ],
+            "orig": "Power produced at the flywheel will be within standard tolerances up to 49°C (120°F) combustion air temperature measured at the air cleaner inlet, and fuel temperature up to 52°C (125°F) measured at the fuel filter base. Power rated in accordance with NMMA procedure as crankshaft power. Reduce crankshaft power by 3% for propeller shaft power.",
+            "text": "Power produced at the flywheel will be within standard tolerances up to 49°C (120°F) combustion air temperature measured at the air cleaner inlet, and fuel temperature up to 52°C (125°F) measured at the fuel filter base. Power rated in accordance with NMMA procedure as crankshaft power. Reduce crankshaft power by 3% for propeller shaft power.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/79",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 55.321,
+                        "t": 72.44899999999996,
+                        "r": 536.165,
+                        "b": 58.24400000000003,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        219
+                    ]
+                }
+            ],
+            "orig": "CAT, CATERPILLAR, their respective logos, 'Caterpillar Yellow' and the POWER EDGE trade dress, as well as corporate and product identity used herein, are trademarks of Caterpillar and may not be used without permission.",
+            "text": "CAT, CATERPILLAR, their respective logos, 'Caterpillar Yellow' and the POWER EDGE trade dress, as well as corporate and product identity used herein, are trademarks of Caterpillar and may not be used without permission.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/80",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 487.783,
+                        "t": 55.91700000000003,
+                        "r": 542.348,
+                        "b": 49.71199999999999,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "orig": "©2007 Caterpillar",
+            "text": "©2007 Caterpillar",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/81",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 484.388,
+                        "t": 47.91700000000003,
+                        "r": 542.348,
+                        "b": 41.71199999999999,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        20
+                    ]
+                }
+            ],
+            "orig": "All rights reserved.",
+            "text": "All rights reserved.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/82",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 55.0,
+                        "t": 39.91599999999994,
+                        "r": 120.744,
+                        "b": 25.711000000000013,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        31
+                    ]
+                }
+            ],
+            "orig": "U.S. Sourced LEHM3329-02 (6-07)",
+            "text": "U.S. Sourced LEHM3329-02 (6-07)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/83",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 340.844,
+                        "t": 39.91599999999994,
+                        "r": 542.403,
+                        "b": 25.711000000000013,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        134
+                    ]
+                }
+            ],
+            "orig": "Materials and specifications are subject to change without notice. The International System of Units (SI) is used in this publication.",
+            "text": "Materials and specifications are subject to change without notice. The International System of Units (SI) is used in this publication.",
+            "formatting": null,
+            "hyperlink": null
+        }
+    ],
+    "pictures": [
+        {
+            "self_ref": "#/pictures/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/0"
+                },
+                {
+                    "cref": "#/texts/1"
+                },
+                {
+                    "cref": "#/texts/2"
+                },
+                {
+                    "cref": "#/texts/3"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 51.91387939453125,
+                        "t": 684.8796463012695,
+                        "r": 293.10699462890625,
+                        "b": 471.9665222167969,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/61"
+                },
+                {
+                    "cref": "#/texts/62"
+                },
+                {
+                    "cref": "#/texts/63"
+                },
+                {
+                    "cref": "#/texts/64"
+                },
+                {
+                    "cref": "#/texts/65"
+                },
+                {
+                    "cref": "#/texts/66"
+                },
+                {
+                    "cref": "#/texts/67"
+                },
+                {
+                    "cref": "#/texts/68"
+                },
+                {
+                    "cref": "#/texts/69"
+                },
+                {
+                    "cref": "#/texts/70"
+                },
+                {
+                    "cref": "#/texts/71"
+                },
+                {
+                    "cref": "#/texts/72"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 102.16187286376953,
+                        "t": 712.7980804443359,
+                        "r": 530.5272827148438,
+                        "b": 416.8666076660156,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        }
+    ],
+    "tables": [
+        {
+            "self_ref": "#/tables/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 309.033935546875,
+                        "t": 135.758056640625,
+                        "r": 542.4114990234375,
+                        "b": 39.8438720703125,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 395.705,
+                            "t": 659.6949999999999,
+                            "r": 454.718,
+                            "b": 667.797,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 4,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 4,
+                        "text": "50 Hz Ratings",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 320.204,
+                            "t": 671.345,
+                            "r": 349.208,
+                            "b": 679.447,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "%load",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 383.21,
+                            "t": 671.345,
+                            "r": 402.209,
+                            "b": 679.447,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "bkW",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 443.969,
+                            "t": 671.345,
+                            "r": 460.466,
+                            "b": 679.447,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "Lph",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 503.477,
+                            "t": 671.345,
+                            "r": 519.974,
+                            "b": 679.447,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "gph",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 327.195,
+                            "t": 683.435,
+                            "r": 342.207,
+                            "b": 691.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "100",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 384.615,
+                            "t": 683.435,
+                            "r": 399.627,
+                            "b": 691.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "215",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 445.491,
+                            "t": 683.435,
+                            "r": 463.005,
+                            "b": 691.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "53.0",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 503.208,
+                            "t": 683.435,
+                            "r": 520.722,
+                            "b": 691.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "14.0",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 332.198,
+                            "t": 695.435,
+                            "r": 342.206,
+                            "b": 703.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "75",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 384.614,
+                            "t": 695.435,
+                            "r": 399.626,
+                            "b": 703.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "161",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 445.49,
+                            "t": 695.435,
+                            "r": 463.004,
+                            "b": 703.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "40.9",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 503.207,
+                            "t": 695.435,
+                            "r": 520.721,
+                            "b": 703.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "10.8",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 327.195,
+                            "t": 707.435,
+                            "r": 342.207,
+                            "b": 715.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "100",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 384.615,
+                            "t": 707.435,
+                            "r": 399.627,
+                            "b": 715.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "189",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 445.491,
+                            "t": 707.435,
+                            "r": 463.005,
+                            "b": 715.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "46.9",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 503.208,
+                            "t": 707.435,
+                            "r": 520.722,
+                            "b": 715.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "12.4",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 332.198,
+                            "t": 719.435,
+                            "r": 342.206,
+                            "b": 727.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "75",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 384.614,
+                            "t": 719.435,
+                            "r": 399.626,
+                            "b": 727.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "142",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 445.49,
+                            "t": 719.435,
+                            "r": 463.004,
+                            "b": 727.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "36.4",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 508.211,
+                            "t": 719.435,
+                            "r": 520.721,
+                            "b": 727.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "9.6",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 327.195,
+                            "t": 731.434,
+                            "r": 342.207,
+                            "b": 739.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "100",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 384.615,
+                            "t": 731.434,
+                            "r": 399.627,
+                            "b": 739.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "162",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 445.491,
+                            "t": 731.434,
+                            "r": 463.005,
+                            "b": 739.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "40.9",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 503.208,
+                            "t": 731.434,
+                            "r": 520.722,
+                            "b": 739.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "10.8",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 332.198,
+                            "t": 743.434,
+                            "r": 342.206,
+                            "b": 751.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 7,
+                        "end_row_offset_idx": 8,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "75",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 384.614,
+                            "t": 743.434,
+                            "r": 399.626,
+                            "b": 751.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 7,
+                        "end_row_offset_idx": 8,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "122",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 445.49,
+                            "t": 743.434,
+                            "r": 463.004,
+                            "b": 751.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 7,
+                        "end_row_offset_idx": 8,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "31.4",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 508.211,
+                            "t": 743.434,
+                            "r": 520.721,
+                            "b": 751.412,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 7,
+                        "end_row_offset_idx": 8,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "8.3",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 8,
+                "num_cols": 4,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 395.705,
+                                "t": 659.6949999999999,
+                                "r": 454.718,
+                                "b": 667.797,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 4,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 4,
+                            "text": "50 Hz Ratings",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 395.705,
+                                "t": 659.6949999999999,
+                                "r": 454.718,
+                                "b": 667.797,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 4,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 4,
+                            "text": "50 Hz Ratings",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 395.705,
+                                "t": 659.6949999999999,
+                                "r": 454.718,
+                                "b": 667.797,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 4,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 4,
+                            "text": "50 Hz Ratings",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 395.705,
+                                "t": 659.6949999999999,
+                                "r": 454.718,
+                                "b": 667.797,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 4,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 4,
+                            "text": "50 Hz Ratings",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 320.204,
+                                "t": 671.345,
+                                "r": 349.208,
+                                "b": 679.447,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "%load",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 383.21,
+                                "t": 671.345,
+                                "r": 402.209,
+                                "b": 679.447,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "bkW",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 443.969,
+                                "t": 671.345,
+                                "r": 460.466,
+                                "b": 679.447,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "Lph",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 503.477,
+                                "t": 671.345,
+                                "r": 519.974,
+                                "b": 679.447,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "gph",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 327.195,
+                                "t": 683.435,
+                                "r": 342.207,
+                                "b": 691.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "100",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 384.615,
+                                "t": 683.435,
+                                "r": 399.627,
+                                "b": 691.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "215",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 445.491,
+                                "t": 683.435,
+                                "r": 463.005,
+                                "b": 691.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "53.0",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 503.208,
+                                "t": 683.435,
+                                "r": 520.722,
+                                "b": 691.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "14.0",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 332.198,
+                                "t": 695.435,
+                                "r": 342.206,
+                                "b": 703.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "75",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 384.614,
+                                "t": 695.435,
+                                "r": 399.626,
+                                "b": 703.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "161",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 445.49,
+                                "t": 695.435,
+                                "r": 463.004,
+                                "b": 703.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "40.9",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 503.207,
+                                "t": 695.435,
+                                "r": 520.721,
+                                "b": 703.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "10.8",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 327.195,
+                                "t": 707.435,
+                                "r": 342.207,
+                                "b": 715.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "100",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 384.615,
+                                "t": 707.435,
+                                "r": 399.627,
+                                "b": 715.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "189",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 445.491,
+                                "t": 707.435,
+                                "r": 463.005,
+                                "b": 715.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "46.9",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 503.208,
+                                "t": 707.435,
+                                "r": 520.722,
+                                "b": 715.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "12.4",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 332.198,
+                                "t": 719.435,
+                                "r": 342.206,
+                                "b": 727.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "75",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 384.614,
+                                "t": 719.435,
+                                "r": 399.626,
+                                "b": 727.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "142",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 445.49,
+                                "t": 719.435,
+                                "r": 463.004,
+                                "b": 727.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "36.4",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 508.211,
+                                "t": 719.435,
+                                "r": 520.721,
+                                "b": 727.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "9.6",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 327.195,
+                                "t": 731.434,
+                                "r": 342.207,
+                                "b": 739.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "100",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 384.615,
+                                "t": 731.434,
+                                "r": 399.627,
+                                "b": 739.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "162",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 445.491,
+                                "t": 731.434,
+                                "r": 463.005,
+                                "b": 739.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "40.9",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 503.208,
+                                "t": 731.434,
+                                "r": 520.722,
+                                "b": 739.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "10.8",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 332.198,
+                                "t": 743.434,
+                                "r": 342.206,
+                                "b": 751.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 7,
+                            "end_row_offset_idx": 8,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "75",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 384.614,
+                                "t": 743.434,
+                                "r": 399.626,
+                                "b": 751.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 7,
+                            "end_row_offset_idx": 8,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "122",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 445.49,
+                                "t": 743.434,
+                                "r": 463.004,
+                                "b": 751.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 7,
+                            "end_row_offset_idx": 8,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "31.4",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 508.211,
+                                "t": 743.434,
+                                "r": 520.721,
+                                "b": 751.412,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 7,
+                            "end_row_offset_idx": 8,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "8.3",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        },
+        {
+            "self_ref": "#/tables/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 162.1181640625,
+                        "t": 403.0376892089844,
+                        "r": 436.2406311035156,
+                        "b": 332.0915222167969,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 260.0,
+                            "t": 392.713,
+                            "r": 343.52,
+                            "b": 400.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 3,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 3,
+                        "text": "Engine Dimensions",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 168.361,
+                            "t": 406.713,
+                            "r": 295.873,
+                            "b": 414.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "(1) Length (flywheel housing)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 309.856,
+                            "t": 406.803,
+                            "r": 359.878,
+                            "b": 414.78,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "1116.55 mm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 386.869,
+                            "t": 406.803,
+                            "r": 418.891,
+                            "b": 414.78,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "43.96 in",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 168.361,
+                            "t": 420.713,
+                            "r": 337.377,
+                            "b": 428.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "(2) 973.5",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 184.363,
+                            "t": 420.713,
+                            "r": 209.356,
+                            "b": 428.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Width",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 339.879,
+                            "t": 420.803,
+                            "r": 418.89,
+                            "b": 428.78,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "mm 38.33 in",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 168.361,
+                            "t": 434.713,
+                            "r": 179.359,
+                            "b": 442.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "(3)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 184.363,
+                            "t": 434.713,
+                            "r": 339.88,
+                            "b": 442.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "Height 1113.7",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 342.382,
+                            "t": 434.803,
+                            "r": 418.891,
+                            "b": 442.78,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "mm 43.85 in",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 168.361,
+                            "t": 448.713,
+                            "r": 273.868,
+                            "b": 456.815,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "Weight, Net Dry (approx)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 321.354,
+                            "t": 448.803,
+                            "r": 348.372,
+                            "b": 456.78,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "947 kg",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 386.856,
+                            "t": 448.803,
+                            "r": 418.878,
+                            "b": 456.78,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "2,088 lb",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 5,
+                "num_cols": 3,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 260.0,
+                                "t": 392.713,
+                                "r": 343.52,
+                                "b": 400.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 3,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 3,
+                            "text": "Engine Dimensions",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 260.0,
+                                "t": 392.713,
+                                "r": 343.52,
+                                "b": 400.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 3,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 3,
+                            "text": "Engine Dimensions",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 260.0,
+                                "t": 392.713,
+                                "r": 343.52,
+                                "b": 400.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 3,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 3,
+                            "text": "Engine Dimensions",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 168.361,
+                                "t": 406.713,
+                                "r": 295.873,
+                                "b": 414.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "(1) Length (flywheel housing)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 309.856,
+                                "t": 406.803,
+                                "r": 359.878,
+                                "b": 414.78,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "1116.55 mm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 386.869,
+                                "t": 406.803,
+                                "r": 418.891,
+                                "b": 414.78,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "43.96 in",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 184.363,
+                                "t": 420.713,
+                                "r": 209.356,
+                                "b": 428.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Width",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 339.879,
+                                "t": 420.803,
+                                "r": 418.89,
+                                "b": 428.78,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "mm 38.33 in",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 168.361,
+                                "t": 420.713,
+                                "r": 337.377,
+                                "b": 428.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "(2) 973.5",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 168.361,
+                                "t": 434.713,
+                                "r": 179.359,
+                                "b": 442.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "(3)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 342.382,
+                                "t": 434.803,
+                                "r": 418.891,
+                                "b": 442.78,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "mm 43.85 in",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 184.363,
+                                "t": 434.713,
+                                "r": 339.88,
+                                "b": 442.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "Height 1113.7",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 321.354,
+                                "t": 448.803,
+                                "r": 348.372,
+                                "b": 456.78,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "947 kg",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 386.856,
+                                "t": 448.803,
+                                "r": 418.878,
+                                "b": 456.78,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "2,088 lb",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 168.361,
+                                "t": 448.713,
+                                "r": 273.868,
+                                "b": 456.815,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "Weight, Net Dry (approx)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+        "1": {
+            "size": {
+                "width": 595.2960205078125,
+                "height": 792.0
+            },
+            "image": null,
+            "page_no": 1
+        },
+        "2": {
+            "size": {
+                "width": 595.2960205078125,
+                "height": 792.0
+            },
+            "image": null,
+            "page_no": 2
+        }
+    }
+}

@@ -1,0 +1,4374 @@
+{
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "03_CAT_3406C_marine_propulsion_spec",
+    "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 17761501268316486124,
+        "filename": "03_CAT_3406C_marine_propulsion_spec.pdf",
+        "uri": null
+    },
+    "furniture": {
+        "self_ref": "#/furniture",
+        "parent": null,
+        "children": [],
+        "content_layer": "furniture",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "body": {
+        "self_ref": "#/body",
+        "parent": null,
+        "children": [
+            {
+                "cref": "#/pictures/0"
+            },
+            {
+                "cref": "#/texts/1"
+            },
+            {
+                "cref": "#/texts/2"
+            },
+            {
+                "cref": "#/pictures/1"
+            },
+            {
+                "cref": "#/texts/3"
+            },
+            {
+                "cref": "#/tables/0"
+            },
+            {
+                "cref": "#/texts/4"
+            },
+            {
+                "cref": "#/groups/0"
+            },
+            {
+                "cref": "#/texts/14"
+            },
+            {
+                "cref": "#/groups/1"
+            },
+            {
+                "cref": "#/tables/1"
+            },
+            {
+                "cref": "#/texts/25"
+            },
+            {
+                "cref": "#/groups/2"
+            },
+            {
+                "cref": "#/texts/28"
+            },
+            {
+                "cref": "#/tables/2"
+            },
+            {
+                "cref": "#/texts/29"
+            },
+            {
+                "cref": "#/texts/30"
+            },
+            {
+                "cref": "#/texts/31"
+            },
+            {
+                "cref": "#/texts/32"
+            },
+            {
+                "cref": "#/texts/33"
+            },
+            {
+                "cref": "#/texts/34"
+            },
+            {
+                "cref": "#/texts/35"
+            },
+            {
+                "cref": "#/texts/36"
+            },
+            {
+                "cref": "#/tables/3"
+            },
+            {
+                "cref": "#/pictures/2"
+            },
+            {
+                "cref": "#/texts/37"
+            },
+            {
+                "cref": "#/pictures/3"
+            },
+            {
+                "cref": "#/pictures/4"
+            },
+            {
+                "cref": "#/texts/38"
+            },
+            {
+                "cref": "#/texts/39"
+            }
+        ],
+        "content_layer": "body",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "groups": [
+        {
+            "self_ref": "#/groups/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/5"
+                },
+                {
+                    "cref": "#/texts/6"
+                },
+                {
+                    "cref": "#/texts/7"
+                },
+                {
+                    "cref": "#/texts/8"
+                },
+                {
+                    "cref": "#/texts/9"
+                },
+                {
+                    "cref": "#/texts/10"
+                },
+                {
+                    "cref": "#/texts/11"
+                },
+                {
+                    "cref": "#/texts/12"
+                },
+                {
+                    "cref": "#/texts/13"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/15"
+                },
+                {
+                    "cref": "#/texts/16"
+                },
+                {
+                    "cref": "#/texts/17"
+                },
+                {
+                    "cref": "#/texts/18"
+                },
+                {
+                    "cref": "#/texts/19"
+                },
+                {
+                    "cref": "#/texts/20"
+                },
+                {
+                    "cref": "#/texts/21"
+                },
+                {
+                    "cref": "#/texts/22"
+                },
+                {
+                    "cref": "#/texts/23"
+                },
+                {
+                    "cref": "#/texts/24"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/26"
+                },
+                {
+                    "cref": "#/texts/27"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        }
+    ],
+    "texts": [
+        {
+            "self_ref": "#/texts/0",
+            "parent": {
+                "cref": "#/pictures/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 33.0,
+                        "t": 752.8,
+                        "r": 152.394,
+                        "b": 707.716,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        5
+                    ]
+                }
+            ],
+            "orig": "3406C",
+            "text": "3406C",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 174.36,
+                        "t": 748.8,
+                        "r": 336.135,
+                        "b": 735.138,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        24
+                    ]
+                }
+            ],
+            "orig": "Marine Propulsion Engine",
+            "text": "Marine Propulsion Engine",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 174.36,
+                        "t": 729.8,
+                        "r": 331.83,
+                        "b": 716.138,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "Commercial Applications",
+            "text": "Commercial Applications",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 36.0,
+                        "t": 515.36,
+                        "r": 193.98,
+                        "b": 501.698,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        21
+                    ]
+                }
+            ],
+            "orig": "ENGINE SPECIFICATIONS",
+            "text": "ENGINE SPECIFICATIONS",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.12,
+                        "t": 323.76,
+                        "r": 203.827,
+                        "b": 311.92,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "KEY FEATURES & BENEFITS",
+            "text": "KEY FEATURES & BENEFITS",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/5",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 306.52,
+                        "r": 420.973,
+                        "b": 299.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        100
+                    ]
+                }
+            ],
+            "orig": "· Corrosion resistant aftercooler core and regular duty panel type air cleaner at turbocharger inlet",
+            "text": "Corrosion resistant aftercooler core and regular duty panel type air cleaner at turbocharger inlet",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/6",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 295.52,
+                        "r": 306.002,
+                        "b": 288.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        63
+                    ]
+                }
+            ],
+            "orig": "· Gear-driven centrifugal jacket water pump with expansion tank",
+            "text": "Gear-driven centrifugal jacket water pump with expansion tank",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/7",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 284.52,
+                        "r": 347.993,
+                        "b": 277.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        74
+                    ]
+                }
+            ],
+            "orig": "· Water-cooled exhaust manifold and turbocharger with round flanged outlet",
+            "text": "Water-cooled exhaust manifold and turbocharger with round flanged outlet",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/8",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 273.52,
+                        "r": 404.877,
+                        "b": 266.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        98
+                    ]
+                }
+            ],
+            "orig": "· Fuel priming pump, transfer pump, and LH serviced filter, flexible lines, and fuel ratio control",
+            "text": "Fuel priming pump, transfer pump, and LH serviced filter, flexible lines, and fuel ratio control",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/9",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 262.52,
+                        "r": 245.165,
+                        "b": 255.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        45
+                    ]
+                }
+            ],
+            "orig": "· Heavy duty SAE standard rotation tachometer",
+            "text": "Heavy duty SAE standard rotation tachometer",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/10",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 251.51999999999998,
+                        "r": 453.785,
+                        "b": 244.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        106
+                    ]
+                }
+            ],
+            "orig": "· LH instrument panel with engine oil pressure, water temperature, and fuel pressure gauges, service meter",
+            "text": "LH instrument panel with engine oil pressure, water temperature, and fuel pressure gauges, service meter",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/11",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 240.51999999999998,
+                        "r": 369.177,
+                        "b": 233.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        90
+                    ]
+                }
+            ],
+            "orig": "· Crankcase breather with right hand Service - oil filter, oil level gauge, and oil filler",
+            "text": "Crankcase breather with right hand Service - oil filter, oil level gauge, and oil filler",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/12",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 229.51999999999998,
+                        "r": 159.846,
+                        "b": 222.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "· Front & rear supports",
+            "text": "Front & rear supports",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/13",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.36,
+                        "t": 218.51999999999998,
+                        "r": 183.576,
+                        "b": 211.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        28
+                    ]
+                }
+            ],
+            "orig": "· Vibration damper and guard",
+            "text": "Vibration damper and guard",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/14",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 55.84,
+                        "t": 179.76,
+                        "r": 187.283,
+                        "b": 167.91999999999996,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        18
+                    ]
+                }
+            ],
+            "orig": "STANDARD EQUIPMENT",
+            "text": "STANDARD EQUIPMENT",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/15",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 160.51999999999998,
+                        "r": 166.47,
+                        "b": 153.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        24
+                    ]
+                }
+            ],
+            "orig": "· SAE 1 flywheel housing",
+            "text": "SAE 1 flywheel housing",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/16",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 149.51999999999998,
+                        "r": 163.69,
+                        "b": 142.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "· Water cooled manifold",
+            "text": "Water cooled manifold",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/17",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 138.51999999999998,
+                        "r": 161.39,
+                        "b": 131.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "· Turbo and Aftercooler",
+            "text": "Turbo and Aftercooler",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/18",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 127.51999999999998,
+                        "r": 210.846,
+                        "b": 120.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        37
+                    ]
+                }
+            ],
+            "orig": "· Keel cooling with jacket water pump",
+            "text": "Keel cooling with jacket water pump",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/19",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 116.51999999999998,
+                        "r": 189.911,
+                        "b": 109.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        30
+                    ]
+                }
+            ],
+            "orig": "· Expansion tank & connections",
+            "text": "Expansion tank & connections",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/20",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 105.51999999999998,
+                        "r": 136.434,
+                        "b": 98.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "· Exhaust flange",
+            "text": "Exhaust flange",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/21",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 94.51999999999998,
+                        "r": 123.319,
+                        "b": 87.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        13
+                    ]
+                }
+            ],
+            "orig": "· Air cleaner",
+            "text": "Air cleaner",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/22",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 83.51999999999998,
+                        "r": 159.566,
+                        "b": 76.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        23
+                    ]
+                }
+            ],
+            "orig": "· Front & rear supports",
+            "text": "Front & rear supports",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/23",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 72.51999999999998,
+                        "r": 217.34,
+                        "b": 65.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        40
+                    ]
+                }
+            ],
+            "orig": "· Charging alternator (12/24V selection)",
+            "text": "Charging alternator (12/24V selection)",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/24",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 67.08,
+                        "t": 61.51999999999998,
+                        "r": 200.064,
+                        "b": 54.26400000000001,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        35
+                    ]
+                }
+            ],
+            "orig": "· Starting motor (12/24V selection)",
+            "text": "Starting motor (12/24V selection)",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/25",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 306.0,
+                        "t": 179.76,
+                        "r": 449.195,
+                        "b": 167.91999999999996,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        20
+                    ]
+                }
+            ],
+            "orig": "OPTIONAL ATTACHMENTS",
+            "text": "OPTIONAL ATTACHMENTS",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/26",
+            "parent": {
+                "cref": "#/groups/2"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 317.24,
+                        "t": 160.51999999999998,
+                        "r": 391.258,
+                        "b": 153.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "· Sea water pump",
+            "text": "Sea water pump",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/27",
+            "parent": {
+                "cref": "#/groups/2"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 317.24,
+                        "t": 149.51999999999998,
+                        "r": 389.665,
+                        "b": 142.264,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        16
+                    ]
+                }
+            ],
+            "orig": "· Heat exchanger",
+            "text": "Heat exchanger",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": "·"
+        },
+        {
+            "self_ref": "#/texts/28",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 34.84,
+                        "t": 755.656,
+                        "r": 244.795,
+                        "b": 741.994,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "RATINGS & FUEL CONSUMPTION",
+            "text": "RATINGS & FUEL CONSUMPTION",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/29",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 631.828,
+                        "r": 113.552,
+                        "b": 623.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        18
+                    ]
+                }
+            ],
+            "orig": "Rating Defintions:",
+            "text": "Rating Defintions:",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/30",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 617.828,
+                        "r": 177.93,
+                        "b": 609.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        34
+                    ]
+                }
+            ],
+            "orig": "A Rating (Unrestricted Continuous)",
+            "text": "A Rating (Unrestricted Continuous)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/31",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 603.828,
+                        "r": 546.176,
+                        "b": 581.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        161
+                    ]
+                }
+            ],
+            "orig": "Typical Applications:  For Vessels operating at rated load and rated speed up to 100% of the time without interruption or load cycling (80% to 100% load factor).",
+            "text": "Typical Applications:  For Vessels operating at rated load and rated speed up to 100% of the time without interruption or load cycling (80% to 100% load factor).",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/32",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 575.828,
+                        "r": 265.373,
+                        "b": 567.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        58
+                    ]
+                }
+            ],
+            "orig": "Typical operation ranges from 5000 to 8000 hours per year.",
+            "text": "Typical operation ranges from 5000 to 8000 hours per year.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/33",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 547.828,
+                        "r": 127.089,
+                        "b": 539.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        21
+                    ]
+                }
+            ],
+            "orig": "B Rating (Heavy Duty)",
+            "text": "B Rating (Heavy Duty)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/34",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 533.828,
+                        "r": 555.822,
+                        "b": 511.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        144
+                    ]
+                }
+            ],
+            "orig": "Typical applications: For vessels operating at rated load and rated speed up to 80% of the time with some load cycling (40% to 80% load factor).",
+            "text": "Typical applications: For vessels operating at rated load and rated speed up to 80% of the time with some load cycling (40% to 80% load factor).",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/35",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 45.0,
+                        "t": 505.828,
+                        "r": 263.376,
+                        "b": 497.533,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        58
+                    ]
+                }
+            ],
+            "orig": "Typical operation ranges from 3000 to 5000 hours per year.",
+            "text": "Typical operation ranges from 3000 to 5000 hours per year.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/36",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 35.06,
+                        "t": 462.16,
+                        "r": 240.89,
+                        "b": 448.498,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        26
+                    ]
+                }
+            ],
+            "orig": "ENGINE DIMENSIONS & WEIGHT",
+            "text": "ENGINE DIMENSIONS & WEIGHT",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/37",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 234.133,
+                        "t": 249.98299999999995,
+                        "r": 384.894,
+                        "b": 225.96399999999994,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        54
+                    ]
+                }
+            ],
+            "orig": "Contact your local Cat ®  Dealer for more information!",
+            "text": "Contact your local Cat ®  Dealer for more information!",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/38",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 36.0,
+                        "t": 52.527000000000044,
+                        "r": 70.974,
+                        "b": 47.085000000000036,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        12
+                    ]
+                }
+            ],
+            "orig": "LEHM21449-00",
+            "text": "LEHM21449-00",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/39",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "furniture",
+            "meta": null,
+            "label": "page_footer",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 36.0,
+                        "t": 43.32000000000005,
+                        "r": 440.64,
+                        "b": 30.878000000000043,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        308
+                    ]
+                }
+            ],
+            "orig": "© 2023 Caterpillar. All Rights Reserved. CAT, CATERPILLAR, LET'S DO THE WORK, their respective logos, 'Caterpillar Corporate Yellow', the 'Power Edge' and Cat 'Modern Hex' trade dress as well as corporate and product identity used herein, are trademarks of Caterpillar and may not be used without permission.",
+            "text": "© 2023 Caterpillar. All Rights Reserved. CAT, CATERPILLAR, LET'S DO THE WORK, their respective logos, 'Caterpillar Corporate Yellow', the 'Power Edge' and Cat 'Modern Hex' trade dress as well as corporate and product identity used herein, are trademarks of Caterpillar and may not be used without permission.",
+            "formatting": null,
+            "hyperlink": null
+        }
+    ],
+    "pictures": [
+        {
+            "self_ref": "#/pictures/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/0"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 32.51432800292969,
+                        "t": 754.4048118591309,
+                        "r": 150.9527130126953,
+                        "b": 715.8277740478516,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 208.52481079101562,
+                        "t": 682.859016418457,
+                        "r": 404.6727294921875,
+                        "b": 536.3854370117188,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 209.66856384277344,
+                        "t": 450.51678466796875,
+                        "r": 574.6735229492188,
+                        "b": 295.2984619140625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 286.324462890625,
+                        "t": 218.99462890625,
+                        "r": 326.30133056640625,
+                        "b": 178.58709716796875,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        },
+        {
+            "self_ref": "#/pictures/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "picture",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 528.3026733398438,
+                        "t": 58.00958251953125,
+                        "r": 579.9859008789062,
+                        "b": 29.2213134765625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "annotations": []
+        }
+    ],
+    "tables": [
+        {
+            "self_ref": "#/tables/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 44.07217025756836,
+                        "t": 484.051513671875,
+                        "r": 274.3896179199219,
+                        "b": 352.7633056640625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 46.0,
+                            "t": 348.83,
+                            "r": 132.359,
+                            "b": 357.028,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "RATED ENGINE SPEED",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.0,
+                            "t": 366.934,
+                            "r": 108.907,
+                            "b": 375.132,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "DISPLACEMENT",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.0,
+                            "t": 383.984,
+                            "r": 95.512,
+                            "b": 392.181,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "ASPIRATION",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.0,
+                            "t": 403.264,
+                            "r": 89.907,
+                            "b": 411.461,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "GOVERNOR",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 152.0,
+                            "t": 348.83,
+                            "r": 184.245,
+                            "b": 356.087,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "1800 rpm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 152.0,
+                            "t": 366.934,
+                            "r": 222.074,
+                            "b": 374.191,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "14.64 L (893.39 cu in)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 152.0,
+                            "t": 384.984,
+                            "r": 245.334,
+                            "b": 392.24,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 4,
+                        "end_row_offset_idx": 5,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "Turbocharged - aftercooled",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.0,
+                            "t": 330.76,
+                            "r": 91.598,
+                            "b": 338.957,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "EMISSIONS",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 152.0,
+                            "t": 329.76,
+                            "r": 196.697,
+                            "b": 337.016,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "non-certified",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.0,
+                            "t": 311.0,
+                            "r": 112.283,
+                            "b": 319.197,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "CONFIGURATION",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 152.0,
+                            "t": 313.0,
+                            "r": 256.789,
+                            "b": 320.256,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "Inline-6, 4-Stroke-Cycle Diesel",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 45.712,
+                            "t": 420.424,
+                            "r": 107.116,
+                            "b": 428.621,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "BORE x STROKE",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 151.92,
+                            "t": 420.8,
+                            "r": 224.957,
+                            "b": 439.056,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 6,
+                        "end_row_offset_idx": 7,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "137.2 mmx 165.1 mm/ 5.4 in x 6.4 in",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 152.0,
+                            "t": 402.888,
+                            "r": 191.797,
+                            "b": 410.144,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 5,
+                        "end_row_offset_idx": 6,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "Mechanical",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 7,
+                "num_cols": 2,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.0,
+                                "t": 311.0,
+                                "r": 112.283,
+                                "b": 319.197,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "CONFIGURATION",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 152.0,
+                                "t": 313.0,
+                                "r": 256.789,
+                                "b": 320.256,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "Inline-6, 4-Stroke-Cycle Diesel",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.0,
+                                "t": 330.76,
+                                "r": 91.598,
+                                "b": 338.957,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "EMISSIONS",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 152.0,
+                                "t": 329.76,
+                                "r": 196.697,
+                                "b": 337.016,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "non-certified",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.0,
+                                "t": 348.83,
+                                "r": 132.359,
+                                "b": 357.028,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "RATED ENGINE SPEED",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 152.0,
+                                "t": 348.83,
+                                "r": 184.245,
+                                "b": 356.087,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "1800 rpm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.0,
+                                "t": 366.934,
+                                "r": 108.907,
+                                "b": 375.132,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "DISPLACEMENT",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 152.0,
+                                "t": 366.934,
+                                "r": 222.074,
+                                "b": 374.191,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "14.64 L (893.39 cu in)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.0,
+                                "t": 383.984,
+                                "r": 95.512,
+                                "b": 392.181,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "ASPIRATION",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 152.0,
+                                "t": 384.984,
+                                "r": 245.334,
+                                "b": 392.24,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 4,
+                            "end_row_offset_idx": 5,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "Turbocharged - aftercooled",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.0,
+                                "t": 403.264,
+                                "r": 89.907,
+                                "b": 411.461,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "GOVERNOR",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 152.0,
+                                "t": 402.888,
+                                "r": 191.797,
+                                "b": 410.144,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 5,
+                            "end_row_offset_idx": 6,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "Mechanical",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 45.712,
+                                "t": 420.424,
+                                "r": 107.116,
+                                "b": 428.621,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "BORE x STROKE",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 151.92,
+                                "t": 420.8,
+                                "r": 224.957,
+                                "b": 439.056,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 6,
+                            "end_row_offset_idx": 7,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "137.2 mmx 165.1 mm/ 5.4 in x 6.4 in",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        },
+        {
+            "self_ref": "#/tables/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 335.5074768066406,
+                        "t": 485.8625793457031,
+                        "r": 566.2571411132812,
+                        "b": 410.2926025390625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 337.24,
+                            "t": 331.56,
+                            "r": 426.627,
+                            "b": 339.758,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "OIL CHANGE INTERVAL",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 337.24,
+                            "t": 372.217,
+                            "r": 372.906,
+                            "b": 380.414,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "COOLING",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 337.24,
+                            "t": 312.319,
+                            "r": 405.376,
+                            "b": 320.517,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "REFILL CAPACITY",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 443.864,
+                            "t": 373.484,
+                            "r": 548.088,
+                            "b": 380.74,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "Heat exchanger or keel-cooled",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 443.24,
+                            "t": 313.319,
+                            "r": 491.279,
+                            "b": 320.576,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "34.0 L (9.0 gal)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 337.24,
+                            "t": 348.76,
+                            "r": 411.358,
+                            "b": 365.957,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "ROTATION (from flywheel end)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 443.24,
+                            "t": 348.76,
+                            "r": 478.316,
+                            "b": 356.016,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "Clockwise",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 442.695,
+                            "t": 331.48,
+                            "r": 467.177,
+                            "b": 338.737,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "250 hrs",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 4,
+                "num_cols": 2,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 337.24,
+                                "t": 312.319,
+                                "r": 405.376,
+                                "b": 320.517,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "REFILL CAPACITY",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 443.24,
+                                "t": 313.319,
+                                "r": 491.279,
+                                "b": 320.576,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "34.0 L (9.0 gal)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 337.24,
+                                "t": 331.56,
+                                "r": 426.627,
+                                "b": 339.758,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "OIL CHANGE INTERVAL",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 442.695,
+                                "t": 331.48,
+                                "r": 467.177,
+                                "b": 338.737,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "250 hrs",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 337.24,
+                                "t": 348.76,
+                                "r": 411.358,
+                                "b": 365.957,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "ROTATION (from flywheel end)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 443.24,
+                                "t": 348.76,
+                                "r": 478.316,
+                                "b": 356.016,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "Clockwise",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 337.24,
+                                "t": 372.217,
+                                "r": 372.906,
+                                "b": 380.414,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "COOLING",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 443.864,
+                                "t": 373.484,
+                                "r": 548.088,
+                                "b": 380.74,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "Heat exchanger or keel-cooled",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        },
+        {
+            "self_ref": "#/tables/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 35.48631286621094,
+                        "t": 717.9043273925781,
+                        "r": 558.7803344726562,
+                        "b": 650.015625,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 58.712,
+                            "t": 83.07600000000002,
+                            "r": 90.056,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Rating",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 118.491,
+                            "t": 83.07600000000002,
+                            "r": 139.155,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "mhp",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 153.102,
+                            "t": 83.07600000000002,
+                            "r": 171.102,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "bhp",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 184.097,
+                            "t": 83.07600000000002,
+                            "r": 206.765,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "bkW",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 219.205,
+                            "t": 83.07600000000002,
+                            "r": 237.865,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 4,
+                        "end_col_offset_idx": 5,
+                        "text": "rpm",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 265.158,
+                            "t": 83.07600000000002,
+                            "r": 302.49,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 5,
+                        "end_col_offset_idx": 6,
+                        "text": "U.S. g/h",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 334.23,
+                            "t": 83.07600000000002,
+                            "r": 380.01,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 6,
+                        "end_col_offset_idx": 7,
+                        "text": "g/bkW-hr",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 397.9,
+                            "t": 83.07600000000002,
+                            "r": 418.564,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 7,
+                        "end_col_offset_idx": 8,
+                        "text": "IMO",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 428.933,
+                            "t": 83.07600000000002,
+                            "r": 470.333,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 8,
+                        "end_col_offset_idx": 9,
+                        "text": "U.S. EPA",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 484.366,
+                            "t": 83.07600000000002,
+                            "r": 497.698,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 9,
+                        "end_col_offset_idx": 10,
+                        "text": "EU",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 516.26,
+                            "t": 83.07600000000002,
+                            "r": 549.596,
+                            "b": 94.005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 10,
+                        "end_col_offset_idx": 11,
+                        "text": "China*",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 71.329,
+                            "t": 105.85199999999998,
+                            "r": 77.439,
+                            "b": 114.96000000000004,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "A",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 122.163,
+                            "t": 105.85199999999998,
+                            "r": 135.483,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "370",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 155.442,
+                            "t": 105.85199999999998,
+                            "r": 168.762,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "365",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 188.771,
+                            "t": 105.85199999999998,
+                            "r": 202.091,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "272",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 219.655,
+                            "t": 105.85199999999998,
+                            "r": 237.415,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 4,
+                        "end_col_offset_idx": 5,
+                        "text": "1800",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 276.054,
+                            "t": 105.85199999999998,
+                            "r": 291.594,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 5,
+                        "end_col_offset_idx": 6,
+                        "text": "17.8",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 350.46,
+                            "t": 105.85199999999998,
+                            "r": 363.78,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 6,
+                        "end_col_offset_idx": 7,
+                        "text": "208",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 402.117,
+                            "t": 105.85199999999998,
+                            "r": 414.347,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 7,
+                        "end_col_offset_idx": 8,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 443.517,
+                            "t": 105.85199999999998,
+                            "r": 455.747,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 8,
+                        "end_col_offset_idx": 9,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 484.917,
+                            "t": 105.85199999999998,
+                            "r": 497.147,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 9,
+                        "end_col_offset_idx": 10,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 526.813,
+                            "t": 105.85199999999998,
+                            "r": 539.043,
+                            "b": 114.92200000000003,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 10,
+                        "end_col_offset_idx": 11,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 71.329,
+                            "t": 127.452,
+                            "r": 77.439,
+                            "b": 136.55999999999995,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "B",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 122.163,
+                            "t": 127.452,
+                            "r": 135.483,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "405",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 155.442,
+                            "t": 127.452,
+                            "r": 168.762,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "400",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 188.771,
+                            "t": 127.452,
+                            "r": 202.091,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "298",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 219.655,
+                            "t": 127.452,
+                            "r": 237.415,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 4,
+                        "end_col_offset_idx": 5,
+                        "text": "1800",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 276.054,
+                            "t": 127.452,
+                            "r": 291.594,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 5,
+                        "end_col_offset_idx": 6,
+                        "text": "19.5",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 350.46,
+                            "t": 127.452,
+                            "r": 363.78,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 6,
+                        "end_col_offset_idx": 7,
+                        "text": "208",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 402.117,
+                            "t": 127.452,
+                            "r": 414.347,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 7,
+                        "end_col_offset_idx": 8,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 443.517,
+                            "t": 127.452,
+                            "r": 455.747,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 8,
+                        "end_col_offset_idx": 9,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 484.917,
+                            "t": 127.452,
+                            "r": 497.147,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 9,
+                        "end_col_offset_idx": 10,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 526.813,
+                            "t": 127.452,
+                            "r": 539.043,
+                            "b": 136.52200000000005,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 10,
+                        "end_col_offset_idx": 11,
+                        "text": "NC",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 3,
+                "num_cols": 11,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 58.712,
+                                "t": 83.07600000000002,
+                                "r": 90.056,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Rating",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 118.491,
+                                "t": 83.07600000000002,
+                                "r": 139.155,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "mhp",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 153.102,
+                                "t": 83.07600000000002,
+                                "r": 171.102,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "bhp",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 184.097,
+                                "t": 83.07600000000002,
+                                "r": 206.765,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "bkW",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 219.205,
+                                "t": 83.07600000000002,
+                                "r": 237.865,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 4,
+                            "end_col_offset_idx": 5,
+                            "text": "rpm",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 265.158,
+                                "t": 83.07600000000002,
+                                "r": 302.49,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 5,
+                            "end_col_offset_idx": 6,
+                            "text": "U.S. g/h",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 334.23,
+                                "t": 83.07600000000002,
+                                "r": 380.01,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 6,
+                            "end_col_offset_idx": 7,
+                            "text": "g/bkW-hr",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 397.9,
+                                "t": 83.07600000000002,
+                                "r": 418.564,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 7,
+                            "end_col_offset_idx": 8,
+                            "text": "IMO",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 428.933,
+                                "t": 83.07600000000002,
+                                "r": 470.333,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 8,
+                            "end_col_offset_idx": 9,
+                            "text": "U.S. EPA",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 484.366,
+                                "t": 83.07600000000002,
+                                "r": 497.698,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 9,
+                            "end_col_offset_idx": 10,
+                            "text": "EU",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 516.26,
+                                "t": 83.07600000000002,
+                                "r": 549.596,
+                                "b": 94.005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 10,
+                            "end_col_offset_idx": 11,
+                            "text": "China*",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 71.329,
+                                "t": 105.85199999999998,
+                                "r": 77.439,
+                                "b": 114.96000000000004,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "A",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 122.163,
+                                "t": 105.85199999999998,
+                                "r": 135.483,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "370",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 155.442,
+                                "t": 105.85199999999998,
+                                "r": 168.762,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "365",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 188.771,
+                                "t": 105.85199999999998,
+                                "r": 202.091,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "272",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 219.655,
+                                "t": 105.85199999999998,
+                                "r": 237.415,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 4,
+                            "end_col_offset_idx": 5,
+                            "text": "1800",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 276.054,
+                                "t": 105.85199999999998,
+                                "r": 291.594,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 5,
+                            "end_col_offset_idx": 6,
+                            "text": "17.8",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 350.46,
+                                "t": 105.85199999999998,
+                                "r": 363.78,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 6,
+                            "end_col_offset_idx": 7,
+                            "text": "208",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 402.117,
+                                "t": 105.85199999999998,
+                                "r": 414.347,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 7,
+                            "end_col_offset_idx": 8,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 443.517,
+                                "t": 105.85199999999998,
+                                "r": 455.747,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 8,
+                            "end_col_offset_idx": 9,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 484.917,
+                                "t": 105.85199999999998,
+                                "r": 497.147,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 9,
+                            "end_col_offset_idx": 10,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 526.813,
+                                "t": 105.85199999999998,
+                                "r": 539.043,
+                                "b": 114.92200000000003,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 10,
+                            "end_col_offset_idx": 11,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 71.329,
+                                "t": 127.452,
+                                "r": 77.439,
+                                "b": 136.55999999999995,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "B",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 122.163,
+                                "t": 127.452,
+                                "r": 135.483,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "405",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 155.442,
+                                "t": 127.452,
+                                "r": 168.762,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "400",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 188.771,
+                                "t": 127.452,
+                                "r": 202.091,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "298",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 219.655,
+                                "t": 127.452,
+                                "r": 237.415,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 4,
+                            "end_col_offset_idx": 5,
+                            "text": "1800",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 276.054,
+                                "t": 127.452,
+                                "r": 291.594,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 5,
+                            "end_col_offset_idx": 6,
+                            "text": "19.5",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 350.46,
+                                "t": 127.452,
+                                "r": 363.78,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 6,
+                            "end_col_offset_idx": 7,
+                            "text": "208",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 402.117,
+                                "t": 127.452,
+                                "r": 414.347,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 7,
+                            "end_col_offset_idx": 8,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 443.517,
+                                "t": 127.452,
+                                "r": 455.747,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 8,
+                            "end_col_offset_idx": 9,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 484.917,
+                                "t": 127.452,
+                                "r": 497.147,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 9,
+                            "end_col_offset_idx": 10,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 526.813,
+                                "t": 127.452,
+                                "r": 539.043,
+                                "b": 136.52200000000005,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 10,
+                            "end_col_offset_idx": 11,
+                            "text": "NC",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        },
+        {
+            "self_ref": "#/tables/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 2,
+                    "bbox": {
+                        "l": 44.59194564819336,
+                        "t": 430.51007080078125,
+                        "r": 180.66392517089844,
+                        "b": 360.0558776855469,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 46.06,
+                            "t": 363.36,
+                            "r": 88.852,
+                            "b": 371.557,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "LENGTH (1)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.06,
+                            "t": 383.409,
+                            "r": 85.161,
+                            "b": 391.607,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "WIDTH (2)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.06,
+                            "t": 423.624,
+                            "r": 96.275,
+                            "b": 431.821,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "DRY WEIGHT",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 46.06,
+                            "t": 402.689,
+                            "r": 86.907,
+                            "b": 410.887,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "HEIGHT (3)",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 113.06,
+                            "t": 363.36,
+                            "r": 179.949,
+                            "b": 370.616,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "57.25 in / 1454.2mm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 113.06,
+                            "t": 383.41,
+                            "r": 176.111,
+                            "b": 390.666,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "35.96 in / 913.5mm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 113.06,
+                            "t": 423.624,
+                            "r": 170.008,
+                            "b": 430.88,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 3,
+                        "end_row_offset_idx": 4,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "2,921 lb / 1325 kg",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 113.06,
+                            "t": 402.689,
+                            "r": 180.374,
+                            "b": 409.946,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "50.33 in / 1278.5mm",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 4,
+                "num_cols": 2,
+                "orientation": "rot_0",
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.06,
+                                "t": 363.36,
+                                "r": 88.852,
+                                "b": 371.557,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "LENGTH (1)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 113.06,
+                                "t": 363.36,
+                                "r": 179.949,
+                                "b": 370.616,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "57.25 in / 1454.2mm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.06,
+                                "t": 383.409,
+                                "r": 85.161,
+                                "b": 391.607,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "WIDTH (2)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 113.06,
+                                "t": 383.41,
+                                "r": 176.111,
+                                "b": 390.666,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "35.96 in / 913.5mm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.06,
+                                "t": 402.689,
+                                "r": 86.907,
+                                "b": 410.887,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "HEIGHT (3)",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 113.06,
+                                "t": 402.689,
+                                "r": 180.374,
+                                "b": 409.946,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "50.33 in / 1278.5mm",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 46.06,
+                                "t": 423.624,
+                                "r": 96.275,
+                                "b": 431.821,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "DRY WEIGHT",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 113.06,
+                                "t": 423.624,
+                                "r": 170.008,
+                                "b": 430.88,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 3,
+                            "end_row_offset_idx": 4,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "2,921 lb / 1325 kg",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+        "1": {
+            "size": {
+                "width": 612.0,
+                "height": 792.0
+            },
+            "image": null,
+            "page_no": 1
+        },
+        "2": {
+            "size": {
+                "width": 612.0,
+                "height": 792.0
+            },
+            "image": null,
+            "page_no": 2
+        }
+    }
+}
