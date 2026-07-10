@@ -30,6 +30,23 @@ def clean_prefix(s: str, prefix: str) -> str:
     return s.removeprefix(prefix)
 
 
+def to_chunk_id(self_ref: str) -> str:
+    """Convert a Docling self_ref into a flat chunk id.
+
+    Parameters
+    ----------
+    self_ref : str
+        The Docling self reference, for example '#/texts/5'.
+
+    Returns
+    -------
+    str
+        A flat chunk id such as 'texts-5'.
+
+    """
+    return clean_prefix(self_ref, "#/").replace("/", "-")
+
+
 def get_chunk_kind(item: NodeItem) -> Literal["text", "table", "picture"]:
     """Determine the kind of a Docling item.
 
@@ -103,7 +120,7 @@ def normalize_docling(raw: dict, doc_id: str, filename: str) -> NormalizedDocume
 
         chunks.append(
             Chunk(
-                id=clean_prefix(item.self_ref, "#/").replace("/", "-"),
+                id=to_chunk_id(item.self_ref),
                 order=order,
                 kind=get_chunk_kind(item),
                 label=str(item.label),

@@ -15,5 +15,6 @@ def get_repository() -> DocumentRepository:
     DocumentRepository
         The Redis-backed repository. Mongo remains a placeholder and is not
         wired in this phase.
+
     """
     return RedisDocumentRepository()

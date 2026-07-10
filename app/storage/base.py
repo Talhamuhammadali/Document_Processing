@@ -25,6 +25,7 @@ class DocumentRepository(ABC):
             Mapping of chunk id to embedding vector.
         images : dict[str, bytes]
             Mapping of chunk id to PNG image bytes (picture chunks only).
+
         """
 
     @abstractmethod
@@ -40,6 +41,7 @@ class DocumentRepository(ABC):
         -------
         NormalizedDocument | None
             The document, or None.
+
         """
 
     @abstractmethod
@@ -55,6 +57,7 @@ class DocumentRepository(ABC):
         -------
         bool
             True if stored.
+
         """
 
     @abstractmethod
@@ -65,6 +68,7 @@ class DocumentRepository(ABC):
         -------
         list[str]
             The stored document ids.
+
         """
 
     @abstractmethod
@@ -82,6 +86,7 @@ class DocumentRepository(ABC):
         -------
         bytes | None
             PNG image bytes, or None.
+
         """
 
     @abstractmethod
@@ -101,4 +106,5 @@ class DocumentRepository(ABC):
         -------
         list[SearchHit]
             Ranked hits, most similar first.
+
         """
