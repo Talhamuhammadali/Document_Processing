@@ -1,9 +1,9 @@
 {
   "num_documents": 10,
   "total_pages": 21,
-  "processing_wall_sec": 79.343,
-  "sum_convert_sec": 79.282,
-  "aggregate_pages_per_sec": 0.265,
+  "processing_wall_sec": 130.841,
+  "sum_convert_sec": 130.553,
+  "aggregate_pages_per_sec": 0.161,
   "config": {
     "device": "cpu",
     "workers": 1,
@@ -13,89 +13,89 @@
     "do_table_structure": true
   },
   "stage_totals_sec": {
-    "pipeline_total": 79.237,
-    "table_structure": 68.831,
-    "layout": 28.031,
-    "page_parse": 2.173,
-    "doc_assemble": 0.273,
-    "reading_order": 0.268,
-    "doc_enrich": 0.006,
-    "page_assemble": 0.004
+    "pipeline_total": 130.456,
+    "table_structure": 114.207,
+    "layout": 40.799,
+    "page_parse": 5.073,
+    "doc_assemble": 0.636,
+    "reading_order": 0.406,
+    "page_assemble": 0.007,
+    "doc_enrich": 0.006
   },
   "per_document": [
     {
       "file": "03_CAT_3406C_marine_propulsion_spec.pdf",
       "pages": 2,
-      "seconds": 5.608,
+      "seconds": 9.026,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 5.6051
+          "total_sec": 9.0225
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.0683
+          "total_sec": 0.2702
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.4188
+          "total_sec": 3.4998
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 4.7586
+          "total_sec": 7.6312
         },
         "page_assemble": {
           "count": 2,
-          "total_sec": 0.0004
+          "total_sec": 0.0007
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0236
+          "total_sec": 0.0671
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.023
+          "total_sec": 0.0535
         },
         "doc_enrich": {
           "count": 1,
-          "total_sec": 0.0007
+          "total_sec": 0.0004
         }
       }
     },
     {
       "file": "04_CAT_3412C_marine_propulsion_spec.pdf",
       "pages": 2,
-      "seconds": 10.215,
+      "seconds": 16.361,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 10.211
+          "total_sec": 16.3573
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.0816
+          "total_sec": 0.2715
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.8138
+          "total_sec": 3.6265
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 9.3533
+          "total_sec": 15.0431
         },
         "page_assemble": {
           "count": 2,
-          "total_sec": 0.0003
+          "total_sec": 0.0005
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0092
+          "total_sec": 0.0551
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.0088
+          "total_sec": 0.018
         },
         "doc_enrich": {
           "count": 1,
@@ -106,36 +106,116 @@
     {
       "file": "05_CAT_3508B_marine_auxiliary_spec.pdf",
       "pages": 2,
-      "seconds": 5.354,
+      "seconds": 8.774,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 5.3466
+          "total_sec": 8.7619
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.2484
+          "total_sec": 0.5194
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.7024
+          "total_sec": 4.0487
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 4.2148
+          "total_sec": 7.0687
         },
         "page_assemble": {
           "count": 2,
-          "total_sec": 0.0006
+          "total_sec": 0.0014
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0621
+          "total_sec": 0.0728
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.0617
+          "total_sec": 0.0653
+        },
+        "doc_enrich": {
+          "count": 1,
+          "total_sec": 0.001
+        }
+      }
+    },
+    {
+      "file": "06_CAT_3512C_marine_propulsion_spec.pdf",
+      "pages": 2,
+      "seconds": 20.3,
+      "status": "ConversionStatus.SUCCESS",
+      "stage_timings": {
+        "pipeline_total": {
+          "count": 1,
+          "total_sec": 20.2804
+        },
+        "page_parse": {
+          "count": 2,
+          "total_sec": 1.1623
+        },
+        "layout": {
+          "count": 2,
+          "total_sec": 3.5847
+        },
+        "table_structure": {
+          "count": 2,
+          "total_sec": 17.9909
+        },
+        "page_assemble": {
+          "count": 2,
+          "total_sec": 0.0009
+        },
+        "doc_assemble": {
+          "count": 1,
+          "total_sec": 0.0573
+        },
+        "reading_order": {
+          "count": 1,
+          "total_sec": 0.0397
+        },
+        "doc_enrich": {
+          "count": 1,
+          "total_sec": 0.0007
+        }
+      }
+    },
+    {
+      "file": "07_CAT_3516C_marine_propulsion_spec.pdf",
+      "pages": 2,
+      "seconds": 18.777,
+      "status": "ConversionStatus.SUCCESS",
+      "stage_timings": {
+        "pipeline_total": {
+          "count": 1,
+          "total_sec": 18.7735
+        },
+        "page_parse": {
+          "count": 2,
+          "total_sec": 0.6875
+        },
+        "layout": {
+          "count": 2,
+          "total_sec": 4.0857
+        },
+        "table_structure": {
+          "count": 2,
+          "total_sec": 16.8454
+        },
+        "page_assemble": {
+          "count": 2,
+          "total_sec": 0.0008
+        },
+        "doc_assemble": {
+          "count": 1,
+          "total_sec": 0.0943
+        },
+        "reading_order": {
+          "count": 1,
+          "total_sec": 0.0753
         },
         "doc_enrich": {
           "count": 1,
@@ -144,106 +224,26 @@
       }
     },
     {
-      "file": "06_CAT_3512C_marine_propulsion_spec (1).pdf",
-      "pages": 2,
-      "seconds": 12.052,
-      "status": "ConversionStatus.SUCCESS",
-      "stage_timings": {
-        "pipeline_total": {
-          "count": 1,
-          "total_sec": 12.0493
-        },
-        "page_parse": {
-          "count": 2,
-          "total_sec": 0.6598
-        },
-        "layout": {
-          "count": 2,
-          "total_sec": 2.5173
-        },
-        "table_structure": {
-          "count": 2,
-          "total_sec": 10.508
-        },
-        "page_assemble": {
-          "count": 2,
-          "total_sec": 0.0005
-        },
-        "doc_assemble": {
-          "count": 1,
-          "total_sec": 0.0459
-        },
-        "reading_order": {
-          "count": 1,
-          "total_sec": 0.0455
-        },
-        "doc_enrich": {
-          "count": 1,
-          "total_sec": 0.0006
-        }
-      }
-    },
-    {
-      "file": "07_CAT_3516C_marine_propulsion_spec.pdf",
-      "pages": 2,
-      "seconds": 11.729,
-      "status": "ConversionStatus.SUCCESS",
-      "stage_timings": {
-        "pipeline_total": {
-          "count": 1,
-          "total_sec": 11.7267
-        },
-        "page_parse": {
-          "count": 2,
-          "total_sec": 0.3411
-        },
-        "layout": {
-          "count": 2,
-          "total_sec": 2.6071
-        },
-        "table_structure": {
-          "count": 2,
-          "total_sec": 10.4592
-        },
-        "page_assemble": {
-          "count": 2,
-          "total_sec": 0.0005
-        },
-        "doc_assemble": {
-          "count": 1,
-          "total_sec": 0.0474
-        },
-        "reading_order": {
-          "count": 1,
-          "total_sec": 0.0469
-        },
-        "doc_enrich": {
-          "count": 1,
-          "total_sec": 0.0006
-        }
-      }
-    },
-    {
       "file": "08_CAT_C9_marine_genset_spec.pdf",
       "pages": 2,
-      "seconds": 4.803,
+      "seconds": 7.521,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 4.801
+          "total_sec": 7.5159
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.1515
+          "total_sec": 0.4061
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.7627
+          "total_sec": 3.9001
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 3.7323
+          "total_sec": 5.9279
         },
         "page_assemble": {
           "count": 2,
@@ -251,175 +251,175 @@
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0198
+          "total_sec": 0.0421
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.0193
+          "total_sec": 0.0188
         },
         "doc_enrich": {
           "count": 1,
-          "total_sec": 0.0008
+          "total_sec": 0.0007
         }
       }
     },
     {
       "file": "09_Cummins_QSM11_marine_spec.pdf",
       "pages": 2,
-      "seconds": 10.395,
+      "seconds": 19.13,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 10.3907
+          "total_sec": 19.1239
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.0979
+          "total_sec": 0.4432
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.4072
+          "total_sec": 4.0343
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 9.5194
+          "total_sec": 17.5163
         },
         "page_assemble": {
           "count": 2,
-          "total_sec": 0.0003
+          "total_sec": 0.0006
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0099
+          "total_sec": 0.0596
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.0095
+          "total_sec": 0.0216
         },
         "doc_enrich": {
           "count": 1,
-          "total_sec": 0.0005
+          "total_sec": 0.0004
         }
       }
     },
     {
       "file": "10_MTU_20V4000_M73_marine_spec.pdf",
       "pages": 3,
-      "seconds": 9.238,
+      "seconds": 14.82,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 9.229
+          "total_sec": 14.8119
         },
         "page_parse": {
           "count": 3,
-          "total_sec": 0.0944
+          "total_sec": 0.3704
         },
         "layout": {
           "count": 2,
-          "total_sec": 4.717
+          "total_sec": 6.8659
         },
         "table_structure": {
           "count": 3,
-          "total_sec": 8.3636
+          "total_sec": 13.406
         },
         "page_assemble": {
           "count": 3,
-          "total_sec": 0.0003
+          "total_sec": 0.0005
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.009
+          "total_sec": 0.0364
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.0086
+          "total_sec": 0.0189
         },
         "doc_enrich": {
           "count": 1,
-          "total_sec": 0.0003
+          "total_sec": 0.0007
         }
       }
     },
     {
       "file": "11_VolvoPenta_D13_marine_spec.pdf",
       "pages": 2,
-      "seconds": 3.612,
+      "seconds": 5.899,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 3.6067
+          "total_sec": 5.867
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.3283
+          "total_sec": 0.6619
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.6279
+          "total_sec": 3.7487
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 2.5431
+          "total_sec": 4.1707
         },
         "page_assemble": {
           "count": 2,
-          "total_sec": 0.0005
+          "total_sec": 0.001
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0286
+          "total_sec": 0.094
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.028
+          "total_sec": 0.058
         },
         "doc_enrich": {
           "count": 1,
-          "total_sec": 0.0009
+          "total_sec": 0.0006
         }
       }
     },
     {
       "file": "12_JohnDeere_6090SFM85_marine_spec.pdf",
       "pages": 2,
-      "seconds": 6.276,
+      "seconds": 9.945,
       "status": "ConversionStatus.SUCCESS",
       "stage_timings": {
         "pipeline_total": {
           "count": 1,
-          "total_sec": 6.2707
+          "total_sec": 9.9413
         },
         "page_parse": {
           "count": 2,
-          "total_sec": 0.1022
+          "total_sec": 0.2808
         },
         "layout": {
           "count": 2,
-          "total_sec": 2.4566
+          "total_sec": 3.4041
         },
         "table_structure": {
           "count": 2,
-          "total_sec": 5.3791
+          "total_sec": 8.6072
         },
         "page_assemble": {
           "count": 2,
-          "total_sec": 0.0003
+          "total_sec": 0.0007
         },
         "doc_assemble": {
           "count": 1,
-          "total_sec": 0.0174
+          "total_sec": 0.0576
         },
         "reading_order": {
           "count": 1,
-          "total_sec": 0.0167
+          "total_sec": 0.0367
         },
         "doc_enrich": {
           "count": 1,
-          "total_sec": 0.0008
+          "total_sec": 0.0004
         }
       }
     }
