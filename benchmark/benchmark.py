@@ -27,6 +27,7 @@ for _var in ("OMP_NUM_THREADS", "MKL_NUM_THREADS", "OPENBLAS_NUM_THREADS"):
 
 import json
 import multiprocessing as mp
+import tempfile
 import time
 from pathlib import Path
 from typing import Any
@@ -42,6 +43,7 @@ from docling.datamodel.pipeline_options import (
 )
 from docling.datamodel.settings import settings
 from docling.document_converter import DocumentConverter, PdfFormatOption
+from docling_core.types.doc import ImageRefMode
 
 OCR_ENGINES = {
     "easyocr": EasyOcrOptions,
@@ -123,8 +125,32 @@ def _convert_task(pdf_path_str: str) -> dict[str, Any]:
         "seconds": round(elapsed, 3),
         "status": str(conv.status),
         "stage_timings": stage_timings(conv),
-        "document_json": conv.document.model_dump_json(indent=4),
+        "document_json": _serialize_document(conv.document),
     }
+
+
+def _serialize_document(document: Any) -> str:
+    """Serialize a DoclingDocument to JSON with images embedded as base64.
+
+    model_dump_json does not persist the in-memory 2x picture images generated
+    by the pipeline (generate_picture_images=True); only save_as_json with
+    ImageRefMode.EMBEDDED converts them to base64 data URIs. We round-trip
+    through a temp file because save_as_json writes to a path, not a string.
+
+    Parameters
+    ----------
+    document : Any
+        The converted DoclingDocument.
+
+    Returns
+    -------
+    str
+        The document JSON with embedded base64 images.
+
+    """
+    with tempfile.NamedTemporaryFile("r+", suffix=".json") as tmp:
+        document.save_as_json(Path(tmp.name), image_mode=ImageRefMode.EMBEDDED, indent=4)
+        return Path(tmp.name).read_text()
 
 
 def run_conversions(paths: list[str], warmup_pdf: str) -> tuple[list[dict[str, Any]], float]:

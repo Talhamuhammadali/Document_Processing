@@ -18,7 +18,7 @@ services:
       - DOCLING_DO_OCR=false
       - DOCLING_DO_TABLES=true
     volumes:
-      - "./data/local Examples:/data:ro"
+      - "./data/tech_doc_examples:/data:ro"
       - "./benchmark/out:/out"
 
   docling-benchmark-gpu:
@@ -48,5 +48,5 @@ services:
       - DOCLING_DO_OCR=false
       - DOCLING_DO_TABLES=true
     volumes:
-      - "./data/local Examples:/data:ro"
+      - "./data/tech_doc_examples:/data:ro"
       - "./benchmark/out:/out"
