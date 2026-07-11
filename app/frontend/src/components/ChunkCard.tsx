@@ -6,9 +6,10 @@ interface Props {
   item: ChunkListItem
   selected: boolean
   onSelect: () => void
+  compact?: boolean
 }
 
-export default function ChunkCard({ item, selected, onSelect }: Props) {
+export default function ChunkCard({ item, selected, onSelect, compact = false }: Props) {
   const { chunk, score } = item
   const ref = useRef<HTMLButtonElement>(null)
 
@@ -18,28 +19,46 @@ export default function ChunkCard({ item, selected, onSelect }: Props) {
 
   const dimmed = chunk.content_layer === 'furniture'
 
+  const base = compact
+    ? 'w-full px-3 py-1.5 text-left transition-colors'
+    : 'w-full border-l-4 px-4 py-3 text-left transition-colors'
+  const selectedCls = selected
+    ? 'bg-blue-50 ring-2 ring-inset ring-blue-500'
+    : 'bg-white hover:bg-slate-50'
+
   return (
     <button
       ref={ref}
       type="button"
       onClick={onSelect}
-      style={{ borderLeftColor: kindColor[chunk.kind] }}
-      className={`w-full border-l-4 px-4 py-3 text-left transition-colors ${
-        selected ? 'bg-blue-50' : 'bg-white hover:bg-slate-50'
-      } ${dimmed ? 'opacity-60' : ''}`}
+      style={compact ? undefined : { borderLeftColor: kindColor[chunk.kind] }}
+      className={`${base} ${selectedCls} ${dimmed ? 'opacity-60' : ''} rounded-sm`}
     >
-      <div className="mb-1.5 flex items-center gap-2 text-xs text-slate-500">
-        <span>{kindGlyph[chunk.kind]}</span>
-        <span className="font-medium">#{chunk.order}</span>
-        <span className="rounded bg-slate-100 px-1.5 py-0.5">{chunk.label}</span>
-        {dimmed && <span className="rounded bg-amber-100 px-1.5 py-0.5 text-amber-700">furniture</span>}
-        {score !== undefined && (
-          <span className="ml-auto rounded bg-emerald-100 px-1.5 py-0.5 text-emerald-700">
-            {score.toFixed(2)}
+      {!compact && (
+        <div className="mb-1.5 flex items-center gap-2 text-xs text-slate-500">
+          <span>{kindGlyph[chunk.kind]}</span>
+          <span className="font-medium">#{chunk.order}</span>
+          <span className="rounded bg-slate-100 px-1.5 py-0.5">{chunk.label}</span>
+          {dimmed && <span className="rounded bg-amber-100 px-1.5 py-0.5 text-amber-700">furniture</span>}
+          {score !== undefined && (
+            <span className="ml-auto rounded bg-emerald-100 px-1.5 py-0.5 text-emerald-700">
+              {score.toFixed(2)}
+            </span>
+          )}
+        </div>
+      )}
+      {compact ? (
+        <div className="flex gap-2 text-sm text-slate-700">
+          <span style={{ color: kindColor[chunk.kind] }} className="select-none leading-6">
+            •
           </span>
-        )}
-      </div>
-      <ChunkBody item={item} />
+          <div className="min-w-0 flex-1">
+            <ChunkBody item={item} />
+          </div>
+        </div>
+      ) : (
+        <ChunkBody item={item} />
+      )}
     </button>
   )
 }

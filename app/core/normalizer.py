@@ -106,6 +106,8 @@ def normalize_docling(raw: dict, doc_id: str, filename: str) -> NormalizedDocume
         pages.append(page)
         page_size_lookup[page.page_no] = (page.width, page.height)
 
+    group_labels = {group.self_ref: str(group.label) for group in document.groups}
+
     chunks: list[Chunk] = []
     order = 0
     for item, _level in document.iterate_items(included_content_layers=_LAYERS, traverse_pictures=True):
@@ -118,6 +120,9 @@ def normalize_docling(raw: dict, doc_id: str, filename: str) -> NormalizedDocume
         width, height = page_size_lookup[prov.page_no]
         tl = prov.bbox.to_top_left_origin(page_height=height)
 
+        parent_ref = item.parent.cref if item.parent is not None else None
+        in_group = parent_ref is not None and parent_ref.startswith("#/groups/")
+
         chunks.append(
             Chunk(
                 id=to_chunk_id(item.self_ref),
@@ -125,6 +130,8 @@ def normalize_docling(raw: dict, doc_id: str, filename: str) -> NormalizedDocume
                 kind=get_chunk_kind(item),
                 label=str(item.label),
                 content_layer=cast(Literal["body", "furniture", "notes"], item.content_layer.value),
+                group_id=to_chunk_id(parent_ref) if in_group and parent_ref is not None else None,
+                group_label=group_labels.get(parent_ref) if in_group and parent_ref is not None else None,
                 page_no=prov.page_no,
                 bbox=BBox(l=tl.l, t=tl.t, r=tl.r, b=tl.b),
                 bbox_norm=BBox(

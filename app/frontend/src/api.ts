@@ -1,4 +1,4 @@
-import type { Chunk, DocumentMeta, SearchHit, UploadResult } from './types'
+import type { AvailableDoc, Chunk, DocumentMeta, SearchHit, UploadResult } from './types'
 
 export class ApiError extends Error {
   status: number
@@ -43,6 +43,19 @@ export async function uploadDocument(file: File): Promise<UploadResult> {
   const body = new FormData()
   body.append('file', file)
   return request<UploadResult>('/documents/upload', { method: 'POST', body })
+}
+
+export async function listAvailable(): Promise<AvailableDoc[]> {
+  const data = await request<{ available: AvailableDoc[] }>('/documents/available')
+  return data.available
+}
+
+export async function openDocument(filename: string): Promise<UploadResult> {
+  return request<UploadResult>('/documents/open', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ filename }),
+  })
 }
 
 export async function search(

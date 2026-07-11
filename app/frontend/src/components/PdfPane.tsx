@@ -45,6 +45,8 @@ export default function PdfPane({
   }, [selectedChunkId, currentPage, width])
 
   const pageChunks = chunks.filter((c) => c.page_no === currentPage)
+  const selectedChunk = chunks.find((c) => c.id === selectedChunkId)
+  const selectedGroupId = selectedChunk?.group_id ?? null
 
   return (
     <div className="flex h-full flex-col">
@@ -83,15 +85,20 @@ export default function PdfPane({
               renderTextLayer={false}
               renderAnnotationLayer={false}
             />
-            {pageChunks.map((chunk) => (
-              <BBoxOverlay
-                key={chunk.id}
-                chunk={chunk}
-                ref={chunk.id === selectedChunkId ? selectedRef : undefined}
-                selected={chunk.id === selectedChunkId}
-                onSelect={() => onSelectChunk(chunk.id)}
-              />
-            ))}
+            {pageChunks.map((chunk) => {
+              const isSelected = chunk.id === selectedChunkId
+              const inGroup =
+                selectedGroupId !== null && chunk.group_id === selectedGroupId && !isSelected
+              return (
+                <BBoxOverlay
+                  key={chunk.id}
+                  chunk={chunk}
+                  ref={isSelected ? selectedRef : undefined}
+                  state={isSelected ? 'selected' : inGroup ? 'group' : 'idle'}
+                  onSelect={() => onSelectChunk(chunk.id)}
+                />
+              )
+            })}
           </div>
         </Document>
       </div>

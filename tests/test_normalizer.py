@@ -42,6 +42,28 @@ def test_flattens_groups(doc: NormalizedDocument) -> None:
     assert not any(c.id.startswith("groups") for c in doc.chunks)
 
 
+def test_list_items_tagged_with_group(doc: NormalizedDocument) -> None:
+    """List items carry the id and label of their Docling group."""
+    item = next(c for c in doc.chunks if c.id == "texts-5")
+    assert item.group_id == "groups-0"
+    assert item.group_label == "list"
+
+
+def test_consecutive_list_items_share_group(doc: NormalizedDocument) -> None:
+    """Every item of one list shares one group_id, distinct from the next list."""
+    first = {c.group_id for c in doc.chunks if c.id in {"texts-5", "texts-13"}}
+    second = {c.group_id for c in doc.chunks if c.id in {"texts-15", "texts-24"}}
+    assert first == {"groups-0"}
+    assert second == {"groups-1"}
+
+
+def test_ungrouped_chunks_have_no_group(doc: NormalizedDocument) -> None:
+    """A section header sits directly under body, so it has no group."""
+    header = next(c for c in doc.chunks if (c.text or "").strip() == "KEY FEATURES & BENEFITS")
+    assert header.group_id is None
+    assert header.group_label is None
+
+
 def test_descends_into_pictures(doc: NormalizedDocument) -> None:
     """Text overlaid on a picture (the 3406C title) is kept as a chunk."""
     assert any((c.text or "").strip() == "3406C" for c in doc.chunks)

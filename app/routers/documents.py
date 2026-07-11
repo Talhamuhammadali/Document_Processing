@@ -9,7 +9,7 @@ from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel
 
 from app.core.embedder import FakeEmbedder
-from app.core.mock_index import match
+from app.core.mock_index import build_index, match
 from app.core.pipeline import process_document
 from app.storage.factory import get_repository
 
@@ -27,23 +27,60 @@ class SearchRequest(BaseModel):
     document_id: str | None = None
 
 
-@router.post("/upload")
-async def upload_document(file: UploadFile = File(...)) -> dict[str, Any]:
-    """Upload a PDF, match it to a mock, process it, and store the result."""
-    filename = file.filename or ""
+class OpenRequest(BaseModel):
+    """A request to open a sample document by filename."""
+
+    filename: str
+
+
+def _process_and_store(filename: str) -> str:
+    """Match a filename to a mock, process and store it if new, and return its id."""
     entry = match(filename)
     if entry is None:
         raise HTTPException(status_code=404, detail="No mock available for this file.")
     doc_id = Path(filename).stem
-    raw = json.loads(entry.mock_json_path.read_text())
-    document, embeddings, images = process_document(raw, doc_id, filename)
-    _repo.save(document, embeddings, images)
+    if not _repo.exists(doc_id):
+        raw = json.loads(entry.mock_json_path.read_text())
+        document, embeddings, images = process_document(raw, doc_id, filename)
+        _repo.save(document, embeddings, images)
+    return doc_id
+
+
+def _summary(doc_id: str) -> dict[str, Any]:
+    """Return a short summary of a stored document."""
+    document = _repo.get(doc_id)
+    if document is None:
+        raise HTTPException(status_code=404, detail="Document not found.")
     return {
         "document_id": document.id,
         "filename": document.filename,
         "num_pages": document.num_pages,
         "num_chunks": len(document.chunks),
     }
+
+
+@router.post("/upload")
+async def upload_document(file: UploadFile = File(...)) -> dict[str, Any]:
+    """Upload a PDF, match it to a mock, process it, and store the result."""
+    return _summary(_process_and_store(file.filename or ""))
+
+
+@router.get("/available")
+async def list_available() -> dict[str, Any]:
+    """List sample documents in the data folder that have a precomputed mock."""
+    processed = set(_repo.list_ids())
+    return {
+        "available": [
+            {"id": Path(name).stem, "filename": name, "processed": Path(name).stem in processed}
+            for name in build_index()
+        ]
+    }
+
+
+@router.post("/open")
+async def open_document(request: OpenRequest) -> dict[str, Any]:
+    """Open a sample document by filename, processing and storing it on first use."""
+    return _summary(_process_and_store(request.filename))
 
 
 @router.get("")

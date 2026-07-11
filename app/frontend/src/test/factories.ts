@@ -7,6 +7,8 @@ export function makeChunk(overrides: Partial<Chunk> = {}): Chunk {
     kind: 'text',
     label: 'text',
     content_layer: 'body',
+    group_id: null,
+    group_label: null,
     page_no: 1,
     bbox: { l: 0, t: 0, r: 100, b: 100 },
     bbox_norm: { l: 0, t: 0, r: 1, b: 1 },

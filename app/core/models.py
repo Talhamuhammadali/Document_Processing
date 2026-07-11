@@ -42,6 +42,8 @@ class Chunk(BaseModel):
     example section_header or list_item) kept for frontend styling.
     content_layer distinguishes real body content from page furniture (headers
     and footers) so the frontend can dim or toggle it.
+    group_id ties chunks that share a Docling structural group (a list or inline
+    run) so the frontend can cluster them into one card.
     """
 
     id: str = Field(..., description="Unique identifier for the chunk.")
@@ -49,6 +51,8 @@ class Chunk(BaseModel):
     kind: Literal["text", "table", "picture"] = Field(..., description="Type of the chunk.")
     label: str = Field(..., description="Docling's fine-grained tag for the chunk.")
     content_layer: Literal["body", "furniture", "notes"] = Field(..., description="Content layer of the chunk.")
+    group_id: str | None = Field(None, description="Id of the Docling group this chunk belongs to, if any.")
+    group_label: str | None = Field(None, description="Label of the Docling group, for example list or inline.")
     page_no: int = Field(..., description="Page number where the chunk is located. Indexed from 1.")
     bbox: BBox = Field(..., description="Bounding box of the chunk in PDF points.")
     bbox_norm: BBox = Field(..., description="Normalized bounding box of the chunk in PDF points.")

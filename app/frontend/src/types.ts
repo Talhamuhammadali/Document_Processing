@@ -27,6 +27,8 @@ export interface Chunk {
   kind: Kind
   label: string
   content_layer: ContentLayer
+  group_id: string | null
+  group_label: string | null
   page_no: number
   bbox: BBox
   bbox_norm: BBox
@@ -61,4 +63,10 @@ export interface UploadResult {
 export interface ChunkListItem {
   chunk: Chunk
   score?: number
+}
+
+export interface AvailableDoc {
+  id: string
+  filename: string
+  processed: boolean
 }
