@@ -19,5 +19,5 @@ services:
       - "./data/tech_doc_examples:/data:ro"
       - "./benchmark/out:/out"
       - "./configs:/configs:ro"
-      - "./app/core/processing/converter.py:/app/converter.py:ro"
+      - "./app:/app/app:ro"
       - "./benchmark/benchmark.py:/app/benchmark.py:ro"

@@ -1,8 +1,14 @@
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ApiError, uploadDocument } from '../api'
+import { uploadDocument } from '../api'
+import type { Mode, OcrEngine } from '../types'
 
-export default function UploadDropzone() {
+interface Props {
+  mode: Mode
+  ocr: OcrEngine
+}
+
+export default function UploadDropzone({ mode, ocr }: Props) {
   const navigate = useNavigate()
   const inputRef = useRef<HTMLInputElement>(null)
   const [dragging, setDragging] = useState(false)
@@ -13,14 +19,10 @@ export default function UploadDropzone() {
     setBusy(true)
     setError(null)
     try {
-      const result = await uploadDocument(file)
+      const result = await uploadDocument(file, mode, ocr)
       navigate(`/doc/${encodeURIComponent(result.document_id)}`)
-    } catch (err) {
-      if (err instanceof ApiError && err.status === 404) {
-        setError('No matching mock for this file. Try one of the sample documents below.')
-      } else {
-        setError('Upload failed. Is the backend running?')
-      }
+    } catch {
+      setError('Upload failed. Is the backend running?')
     } finally {
       setBusy(false)
     }
@@ -54,7 +56,7 @@ export default function UploadDropzone() {
         <span className="font-medium text-slate-700">
           {busy ? 'Uploading…' : 'Drop a PDF here or click to upload'}
         </span>
-        <span className="text-sm text-slate-500">Matched against precomputed samples</span>
+        <span className="text-sm text-slate-500">Processed with the selected mode and OCR engine</span>
       </button>
       <input
         ref={inputRef}

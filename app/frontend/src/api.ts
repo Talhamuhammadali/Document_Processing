@@ -1,4 +1,14 @@
-import type { AvailableDoc, Chunk, DocumentMeta, SearchHit, UploadResult } from './types'
+import type {
+  AvailableDoc,
+  Chunk,
+  CompareResponse,
+  DocumentMeta,
+  EnqueueResult,
+  Mode,
+  OcrEngine,
+  SearchHit,
+  StatusResponse,
+} from './types'
 
 export class ApiError extends Error {
   status: number
@@ -39,10 +49,16 @@ export async function getChunks(id: string): Promise<Chunk[]> {
   return data.chunks
 }
 
-export async function uploadDocument(file: File): Promise<UploadResult> {
+export async function uploadDocument(
+  file: File,
+  mode: Mode,
+  ocr: OcrEngine,
+): Promise<EnqueueResult> {
   const body = new FormData()
   body.append('file', file)
-  return request<UploadResult>('/documents/upload', { method: 'POST', body })
+  body.append('mode', mode)
+  body.append('ocr', ocr)
+  return request<EnqueueResult>('/documents/upload', { method: 'POST', body })
 }
 
 export async function listAvailable(): Promise<AvailableDoc[]> {
@@ -50,12 +66,44 @@ export async function listAvailable(): Promise<AvailableDoc[]> {
   return data.available
 }
 
-export async function openDocument(filename: string): Promise<UploadResult> {
-  return request<UploadResult>('/documents/open', {
+export async function openDocument(
+  filename: string,
+  mode: Mode,
+  ocr: OcrEngine,
+): Promise<EnqueueResult> {
+  return request<EnqueueResult>('/documents/open', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ filename, mode, ocr }),
+  })
+}
+
+export async function getStatus(id: string): Promise<StatusResponse> {
+  return request<StatusResponse>(`/documents/${encodeURIComponent(id)}/status`)
+}
+
+export async function reprocessDocument(
+  id: string,
+  mode: Mode,
+  ocr: OcrEngine,
+): Promise<EnqueueResult> {
+  return request<EnqueueResult>(`/documents/${encodeURIComponent(id)}/reprocess`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ mode, ocr }),
+  })
+}
+
+export async function startCompare(filename: string): Promise<CompareResponse> {
+  return request<CompareResponse>('/documents/compare', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ filename }),
   })
+}
+
+export async function getCompare(stem: string): Promise<CompareResponse> {
+  return request<CompareResponse>(`/documents/compare/${encodeURIComponent(stem)}`)
 }
 
 export async function search(

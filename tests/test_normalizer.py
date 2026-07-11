@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 
 import pytest
+from docling_core.types.doc import DoclingDocument
 
 from app.core.models import NormalizedDocument
 from app.core.normalizer import normalize_docling
@@ -18,14 +19,15 @@ MOCK = Path("benchmark/out/03_CAT_3406C_marine_propulsion_spec.json")
 
 @pytest.fixture
 def raw() -> dict:
-    """Load one real Docling mock document."""
+    """Load one real Docling document fixture."""
     return json.loads(MOCK.read_text())
 
 
 @pytest.fixture
 def doc(raw: dict) -> NormalizedDocument:
-    """Normalize the mock once per test."""
-    return normalize_docling(raw, doc_id="cat3406c", filename="03_CAT_3406C.pdf")
+    """Normalize the fixture document once per test."""
+    document = DoclingDocument.model_validate(raw)
+    return normalize_docling(document, doc_id="cat3406c", filename="03_CAT_3406C.pdf")
 
 
 def test_returns_normalized_document(doc: NormalizedDocument) -> None:

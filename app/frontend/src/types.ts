@@ -2,6 +2,12 @@ export type Kind = 'text' | 'table' | 'picture'
 
 export type ContentLayer = 'body' | 'furniture' | 'notes'
 
+export type Mode = 'fast' | 'accurate'
+
+export type OcrEngine = 'none' | 'tesseract' | 'rapidocr'
+
+export type JobStatus = 'queued' | 'in_progress' | 'complete'
+
 export interface BBox {
   l: number
   t: number
@@ -53,11 +59,18 @@ export interface DocumentMeta {
   pages: Page[]
 }
 
-export interface UploadResult {
+export interface EnqueueResult {
   document_id: string
+  status: JobStatus
+}
+
+export interface StatusResponse {
+  document_id: string
+  status: JobStatus
+  mode: Mode
+  ocr: OcrEngine
   filename: string
-  num_pages: number
-  num_chunks: number
+  error: string | null
 }
 
 export interface ChunkListItem {
@@ -68,5 +81,22 @@ export interface ChunkListItem {
 export interface AvailableDoc {
   id: string
   filename: string
+  name: string
+  folder: string
   processed: boolean
+  status: JobStatus | null
+}
+
+export interface CompareVariant {
+  id: string
+  mode: Mode
+  ocr: OcrEngine
+  status: JobStatus | null
+  error: string | null
+  summary: { num_chunks: number; by_kind: Partial<Record<Kind, number>> } | null
+}
+
+export interface CompareResponse {
+  stem: string
+  variants: CompareVariant[]
 }

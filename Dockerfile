@@ -1,13 +1,5 @@
 FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        libgl1 \
-        libglib2.0-0 \
-        tesseract-ocr \
-        tesseract-ocr-eng \
-        tesseract-ocr-osd \
-    && rm -rf /var/lib/apt/lists/*
-
 ENV UV_COMPILE_BYTECODE=1 \
     UV_LINK_MODE=copy \
     UV_PYTHON_DOWNLOADS=0 \
@@ -15,10 +7,13 @@ ENV UV_COMPILE_BYTECODE=1 \
 
 WORKDIR /app
 
+# Lean API dependencies only (no Docling/torch/OCR): cached until deps change
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 
+# App code + config presets last
 COPY app ./app
+COPY configs ./configs
 
 EXPOSE 8000
 

@@ -75,13 +75,13 @@ def get_chunk_kind(item: NodeItem) -> Literal["text", "table", "picture"]:
     raise ValueError(f"Unknown item type: {type(item)}")
 
 
-def normalize_docling(raw: dict, doc_id: str, filename: str) -> NormalizedDocument:
-    """Normalize a raw Docling document dict into a NormalizedDocument.
+def normalize_docling(document: DoclingDocument, doc_id: str, filename: str) -> NormalizedDocument:
+    """Normalize a Docling document into a NormalizedDocument.
 
     Parameters
     ----------
-    raw : dict
-        The Docling document JSON (as loaded from a mock or a real run).
+    document : DoclingDocument
+        The converted Docling document.
     doc_id : str
         Stable identifier to assign to the resulting document.
     filename : str
@@ -93,8 +93,6 @@ def normalize_docling(raw: dict, doc_id: str, filename: str) -> NormalizedDocume
         A flat, reading-ordered document with top-left, normalized bboxes.
 
     """
-    document = DoclingDocument.model_validate(raw)
-
     pages: list[Page] = []
     page_size_lookup: dict[int, tuple[float, float]] = {}
     for page_item in document.pages.values():

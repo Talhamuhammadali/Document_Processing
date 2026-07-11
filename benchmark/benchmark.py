@@ -31,9 +31,11 @@ import time
 from pathlib import Path
 from typing import Any
 
-from converter import OcrEngine, ProcessingConfig, build_converter
 from docling.datamodel.settings import settings
 from docling.document_converter import DocumentConverter
+
+from app.core.processing.converter import build_converter
+from app.core.processing.types import OcrEngine, ProcessingConfig
 
 _WORKER_CONVERTER: DocumentConverter | None = None
 

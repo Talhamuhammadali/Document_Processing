@@ -209,3 +209,5 @@ __marimo__/
 # superpowers
 
 docs/superpowers/
+# local PDF store (pdf_store_dir)
+.pdf_store/

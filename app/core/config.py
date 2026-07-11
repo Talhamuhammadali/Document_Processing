@@ -20,10 +20,13 @@ class Settings(BaseSettings):
         Redis Stack password, or None if the instance is unauthenticated.
     redis_db : int
         Redis logical database number.
-    benchmark_dir : Path
-        Directory holding the precomputed Docling mock JSON files.
     pdf_dir : Path
-        Directory holding the source PDFs matched to the mocks.
+        Root directory scanned recursively for selectable sample PDFs.
+    configs_dir : Path
+        Directory holding the processing-config presets seeded into Redis.
+    pdf_store_dir : Path
+        Shared directory where source PDFs are written for the worker to read.
+        Kept outside pdf_dir so the store is never scanned as a sample source.
 
     """
 
@@ -34,8 +37,9 @@ class Settings(BaseSettings):
     redis_password: str | None = None
     redis_db: int = 0
 
-    benchmark_dir: Path = _ROOT / "benchmark" / "out"
-    pdf_dir: Path = _ROOT / "data" / "tech_doc_examples"
+    pdf_dir: Path = _ROOT / "data"
+    configs_dir: Path = _ROOT / "configs"
+    pdf_store_dir: Path = _ROOT / ".pdf_store"
 
 
 settings = Settings()

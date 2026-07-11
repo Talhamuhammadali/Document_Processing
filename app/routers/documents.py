@@ -1,22 +1,48 @@
 """Document processing endpoints."""
 
-import json
+from collections import Counter
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal, get_args
 
-from fastapi import APIRouter, File, HTTPException, UploadFile
+from fastapi import APIRouter, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel
 
+from app.core.config import settings
 from app.core.embedder import FakeEmbedder
-from app.core.mock_index import build_index, match
-from app.core.pipeline import process_document
+from app.core.jobs import JobRecord, get_job, set_job
+from app.core.processing.types import OcrEngine
+from app.core.redis_client import redis_client
 from app.storage.factory import get_repository
 
 router = APIRouter(prefix="/documents", tags=["documents"])
 
 _repo = get_repository()
+_redis = redis_client(decode_responses=True)
 _embedder = FakeEmbedder()
+
+Mode = Literal["fast", "accurate"]
+_MODES: tuple[Mode, ...] = get_args(Mode)
+_OCRS: tuple[OcrEngine, ...] = get_args(OcrEngine)
+
+
+def _variant_id(stem: str, mode: str, ocr: str) -> str:
+    """Return the stored document id for one config variant of a file."""
+    return f"{stem}__{mode}-{ocr}"
+
+
+def _doc_id(rel_path: str) -> str:
+    """Derive a stable, collision-free document id from a PDF's path under pdf_dir."""
+    return Path(rel_path).with_suffix("").as_posix().replace("/", "__").replace(" ", "_")
+
+
+def _resolve_sample(rel_path: str) -> Path:
+    """Resolve a sample PDF path under pdf_dir, rejecting traversal outside it."""
+    root = settings.pdf_dir.resolve()
+    source = (root / rel_path).resolve()
+    if not source.is_relative_to(root) or not source.exists():
+        raise HTTPException(status_code=404, detail="Sample not found.")
+    return source
 
 
 class SearchRequest(BaseModel):
@@ -31,56 +57,173 @@ class OpenRequest(BaseModel):
     """A request to open a sample document by filename."""
 
     filename: str
+    mode: Mode = "fast"
+    ocr: OcrEngine = "none"
 
 
-def _process_and_store(filename: str) -> str:
-    """Match a filename to a mock, process and store it if new, and return its id."""
-    entry = match(filename)
-    if entry is None:
-        raise HTTPException(status_code=404, detail="No mock available for this file.")
-    doc_id = Path(filename).stem
-    if not _repo.exists(doc_id):
-        raw = json.loads(entry.mock_json_path.read_text())
-        document, embeddings, images = process_document(raw, doc_id, filename)
-        _repo.save(document, embeddings, images)
-    return doc_id
+class ReprocessRequest(BaseModel):
+    """A request to reprocess a stored document with a new mode or OCR engine."""
+
+    mode: Mode = "fast"
+    ocr: OcrEngine = "none"
 
 
-def _summary(doc_id: str) -> dict[str, Any]:
-    """Return a short summary of a stored document."""
-    document = _repo.get(doc_id)
-    if document is None:
-        raise HTTPException(status_code=404, detail="Document not found.")
-    return {
-        "document_id": document.id,
-        "filename": document.filename,
-        "num_pages": document.num_pages,
-        "num_chunks": len(document.chunks),
-    }
+class CompareRequest(BaseModel):
+    """A request to process a sample under all mode x OCR configs for comparison."""
+
+    filename: str
+
+
+def _pdf_path(doc_id: str) -> Path:
+    """Return the shared-store path for a document's source PDF."""
+    return settings.pdf_store_dir / f"{doc_id}.pdf"
+
+
+async def _enqueue(request: Request, record: JobRecord) -> dict[str, Any]:
+    """Persist the job selection and enqueue a processing job; return its status."""
+    settings.pdf_store_dir.mkdir(parents=True, exist_ok=True)
+    set_job(_redis, record)
+    await request.app.state.arq.enqueue_job("process_document_task", record.doc_id)
+    return {"document_id": record.doc_id, "status": record.status.value}
 
 
 @router.post("/upload")
-async def upload_document(file: UploadFile = File(...)) -> dict[str, Any]:
-    """Upload a PDF, match it to a mock, process it, and store the result."""
-    return _summary(_process_and_store(file.filename or ""))
+async def upload_document(
+    request: Request,
+    file: UploadFile = File(...),
+    mode: Mode = Form("fast"),
+    ocr: OcrEngine = Form("none"),
+) -> dict[str, Any]:
+    """Upload a PDF, store it, and enqueue real processing."""
+    filename = file.filename or "upload.pdf"
+    doc_id = Path(filename).stem
+    dest = _pdf_path(doc_id)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(await file.read())
+    record = JobRecord(
+        doc_id=doc_id, filename=filename, status="queued", mode=mode, ocr=ocr, source_path=str(dest)
+    )
+    return await _enqueue(request, record)
 
 
 @router.get("/available")
 async def list_available() -> dict[str, Any]:
-    """List sample documents in the data folder that have a precomputed mock."""
+    """List every PDF under the data root (recursively) with its processed/queued state."""
     processed = set(_repo.list_ids())
-    return {
-        "available": [
-            {"id": Path(name).stem, "filename": name, "processed": Path(name).stem in processed}
-            for name in build_index()
-        ]
-    }
+    available = []
+    for pdf in sorted(settings.pdf_dir.rglob("*.pdf")):
+        rel = pdf.relative_to(settings.pdf_dir).as_posix()
+        doc_id = _doc_id(rel)
+        job = get_job(_redis, doc_id)
+        available.append(
+            {
+                "id": doc_id,
+                "filename": rel,
+                "name": pdf.name,
+                "folder": pdf.parent.relative_to(settings.pdf_dir).as_posix() or ".",
+                "processed": doc_id in processed,
+                "status": job.status.value if job else None,
+            }
+        )
+    return {"available": available}
 
 
 @router.post("/open")
-async def open_document(request: OpenRequest) -> dict[str, Any]:
-    """Open a sample document by filename, processing and storing it on first use."""
-    return _summary(_process_and_store(request.filename))
+async def open_document(request: Request, body: OpenRequest) -> dict[str, Any]:
+    """Open a sample document by relative path, copying it to the store and enqueueing it."""
+    source = _resolve_sample(body.filename)
+    doc_id = _doc_id(body.filename)
+    dest = _pdf_path(doc_id)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(source.read_bytes())
+    record = JobRecord(
+        doc_id=doc_id, filename=body.filename, status="queued", mode=body.mode, ocr=body.ocr, source_path=str(dest)
+    )
+    return await _enqueue(request, record)
+
+
+@router.post("/{document_id}/reprocess")
+async def reprocess_document(request: Request, document_id: str, body: ReprocessRequest) -> dict[str, Any]:
+    """Reprocess a document's stored PDF with a new mode or OCR engine."""
+    job = get_job(_redis, document_id)
+    source = _pdf_path(document_id)
+    if job is None or not source.exists():
+        raise HTTPException(status_code=404, detail="No source PDF to reprocess.")
+    record = JobRecord(
+        doc_id=document_id,
+        filename=job.filename,
+        status="queued",
+        mode=body.mode,
+        ocr=body.ocr,
+        source_path=str(source),
+    )
+    return await _enqueue(request, record)
+
+
+@router.get("/{document_id}/status")
+async def get_status(document_id: str) -> dict[str, Any]:
+    """Return the processing job status and selection for a document."""
+    job = get_job(_redis, document_id)
+    if job is None:
+        raise HTTPException(status_code=404, detail="No job for this document.")
+    return {
+        "document_id": document_id,
+        "status": job.status.value,
+        "mode": job.mode,
+        "ocr": job.ocr,
+        "filename": job.filename,
+        "error": job.error,
+    }
+
+
+@router.post("/compare")
+async def compare_document(request: Request, body: CompareRequest) -> dict[str, Any]:
+    """Process a sample under all six mode x OCR configs, each as its own variant doc."""
+    source = _resolve_sample(body.filename)
+    stem = _doc_id(body.filename)
+    dest = _pdf_path(stem)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(source.read_bytes())
+
+    variants = []
+    for mode in _MODES:
+        for ocr in _OCRS:
+            variant = _variant_id(stem, mode, ocr)
+            record = JobRecord(
+                doc_id=variant, filename=body.filename, status="queued", mode=mode, ocr=ocr, source_path=str(dest)
+            )
+            set_job(_redis, record)
+            await request.app.state.arq.enqueue_job("process_document_task", variant)
+            variants.append({"id": variant, "mode": mode, "ocr": ocr, "status": "queued"})
+    return {"stem": stem, "variants": variants}
+
+
+@router.get("/compare/{stem}")
+async def get_compare(stem: str) -> dict[str, Any]:
+    """Return the status and chunk summary of every config variant for a file."""
+    variants = []
+    for mode in _MODES:
+        for ocr in _OCRS:
+            variant = _variant_id(stem, mode, ocr)
+            job = get_job(_redis, variant)
+            document = _repo.get(variant)
+            summary = None
+            if document is not None:
+                summary = {
+                    "num_chunks": len(document.chunks),
+                    "by_kind": dict(Counter(c.kind for c in document.chunks)),
+                }
+            variants.append(
+                {
+                    "id": variant,
+                    "mode": mode,
+                    "ocr": ocr,
+                    "status": job.status.value if job else None,
+                    "error": job.error if job else None,
+                    "summary": summary,
+                }
+            )
+    return {"stem": stem, "variants": variants}
 
 
 @router.get("")
@@ -123,11 +266,12 @@ async def get_chunks(document_id: str) -> dict[str, Any]:
 
 @router.get("/{document_id}/file")
 async def get_file(document_id: str) -> FileResponse:
-    """Serve the original PDF for the viewer."""
-    entry = match(f"{document_id}.pdf")
-    if entry is None or not entry.pdf_path.exists():
+    """Serve the stored source PDF for the viewer (variants share one stored PDF)."""
+    job = get_job(_redis, document_id)
+    source = Path(job.source_path) if job else _pdf_path(document_id)
+    if not source.exists():
         raise HTTPException(status_code=404, detail="PDF not found.")
-    return FileResponse(entry.pdf_path, media_type="application/pdf")
+    return FileResponse(source, media_type="application/pdf")
 
 
 @router.get("/{document_id}/chunks/{chunk_id}/image")

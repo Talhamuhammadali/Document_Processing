@@ -1,0 +1,32 @@
+FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+
+# System libraries + tesseract OCR (stable; rarely changes)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libgl1 \
+        libglib2.0-0 \
+        tesseract-ocr \
+        tesseract-ocr-eng \
+        tesseract-ocr-osd \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy \
+    UV_PYTHON_DOWNLOADS=0 \
+    PATH="/app/.venv/bin:$PATH" \
+    HF_HUB_DISABLE_TELEMETRY=1 \
+    DOCLING_ARTIFACTS_PATH=/root/.cache/docling/models
+
+WORKDIR /app
+
+# Full worker dependencies (Docling + torch + OCR): cached until deps change
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --no-install-project --extra worker
+
+# Model weights: cached layer, never invalidated by app code changes
+RUN docling-tools models download layout tableformer rapidocr
+
+# App code + config presets last, so editing code rebuilds no model layer
+COPY app ./app
+COPY configs ./configs
+
+CMD ["arq", "app.worker.WorkerSettings"]
