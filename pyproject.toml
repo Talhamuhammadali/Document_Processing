@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "arq>=0.25.0",
     "docling>=2.66.0",
     "dotenv>=0.9.9",
     "easyocr>=1.7.2",

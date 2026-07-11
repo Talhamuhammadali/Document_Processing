@@ -2,6 +2,5 @@
   "table_mode": "accurate",
   "do_table_structure": true,
   "images_scale": 2.0,
-  "num_threads": 2,
-  "ocr_engine": "rapidocr"
+  "num_threads": 2
 }

@@ -15,7 +15,6 @@ services:
       - CONFIG_DIR=/configs
       - WORKERS=1
       - CPU_CORES=2
-      - DOCLING_DO_OCR=false
     volumes:
       - "./data/tech_doc_examples:/data:ro"
       - "./benchmark/out:/out"

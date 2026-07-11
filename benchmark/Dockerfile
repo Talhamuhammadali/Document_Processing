@@ -22,14 +22,13 @@ WORKDIR /app
 ARG TORCH_INDEX_URL=https://download.pytorch.org/whl/cpu
 RUN pip install --index-url ${TORCH_INDEX_URL} torch==2.9.1 torchvision==0.24.1
 
-# docling + OCR engines: cached until a version bumps
+# docling + OCR engine (rapidocr, ONNX): cached until a version bumps
 RUN pip install \
         "docling==2.66.0" \
-        "easyocr>=1.7.2" \
         "rapidocr-onnxruntime>=1.2.0"
 
 # Model weights: cached layer, never invalidated by code or config changes
-RUN docling-tools models download layout tableformer easyocr rapidocr
+RUN docling-tools models download layout tableformer rapidocr
 
 # Code changes last (also bind-mounted in compose, so tuning needs no rebuild)
 COPY benchmark.py /app/benchmark.py
