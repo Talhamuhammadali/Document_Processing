@@ -198,6 +198,31 @@ async def compare_document(request: Request, body: CompareRequest) -> dict[str, 
     return {"stem": stem, "variants": variants}
 
 
+@router.post("/compare/{stem}/reprocess")
+async def reprocess_compare(request: Request, stem: str) -> dict[str, Any]:
+    """Re-run all six config variants for a file from its already-stored PDF."""
+    source = _pdf_path(stem)
+    if not source.exists():
+        raise HTTPException(status_code=404, detail="No source PDF to reprocess.")
+    variants = []
+    for mode in _MODES:
+        for ocr in _OCRS:
+            variant = _variant_id(stem, mode, ocr)
+            existing = get_job(_redis, variant)
+            record = JobRecord(
+                doc_id=variant,
+                filename=existing.filename if existing else stem,
+                status="queued",
+                mode=mode,
+                ocr=ocr,
+                source_path=str(source),
+            )
+            set_job(_redis, record)
+            await request.app.state.arq.enqueue_job("process_document_task", variant)
+            variants.append({"id": variant, "mode": mode, "ocr": ocr, "status": "queued"})
+    return {"stem": stem, "variants": variants}
+
+
 @router.get("/compare/{stem}")
 async def get_compare(stem: str) -> dict[str, Any]:
     """Return the status and chunk summary of every config variant for a file."""

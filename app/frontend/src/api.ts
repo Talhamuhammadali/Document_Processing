@@ -106,6 +106,12 @@ export async function getCompare(stem: string): Promise<CompareResponse> {
   return request<CompareResponse>(`/documents/compare/${encodeURIComponent(stem)}`)
 }
 
+export async function reprocessCompare(stem: string): Promise<CompareResponse> {
+  return request<CompareResponse>(`/documents/compare/${encodeURIComponent(stem)}/reprocess`, {
+    method: 'POST',
+  })
+}
+
 export async function search(
   query: string,
   opts: { topK?: number; documentId?: string } = {},

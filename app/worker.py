@@ -1,5 +1,6 @@
 """arq worker that runs real Docling processing jobs."""
 
+import asyncio
 import logging
 from typing import Any
 
@@ -19,14 +20,18 @@ from app.storage.factory import get_repository
 
 logger = logging.getLogger(__name__)
 
+MAX_JOBS = 4
+THREADS_PER_JOB = 1
+
 _CONVERTERS: dict[tuple[str, OcrEngine], DocumentConverter] = {}
+_CONVERTER_LOCKS: dict[tuple[str, OcrEngine], asyncio.Lock] = {}
 
 
 def _get_converter(client: Any, mode: str, ocr: OcrEngine) -> DocumentConverter:
     """Return a cached converter for (mode, ocr), building it on first use."""
     key = (mode, ocr)
     if key not in _CONVERTERS:
-        config = load_config(client, mode)
+        config = load_config(client, mode).model_copy(update={"num_threads": THREADS_PER_JOB})
         _CONVERTERS[key] = build_converter(config, ocr)
     return _CONVERTERS[key]
 
@@ -43,8 +48,11 @@ async def process_document_task(ctx: dict[str, Any], doc_id: str) -> str:
 
     update_status(client, doc_id, JobStatus.in_progress)
     try:
+        key = (record.mode, record.ocr)
         converter = _get_converter(client, record.mode, record.ocr)
-        result = converter.convert(record.source_path)
+        lock = _CONVERTER_LOCKS.setdefault(key, asyncio.Lock())
+        async with lock:
+            result = await asyncio.to_thread(converter.convert, record.source_path)
         document, embeddings, images = process_document(result.document, doc_id, record.filename)
         repo.save(document, embeddings, images)
         update_status(client, doc_id, JobStatus.complete)
@@ -73,6 +81,7 @@ class WorkerSettings:
 
     functions = [process_document_task]
     on_startup = startup
+    max_jobs = MAX_JOBS
     redis_settings = RedisSettings(
         host=settings.redis_host,
         port=settings.redis_port,
