@@ -20,7 +20,7 @@ _OCR_ENGINES = {
 }
 
 
-def build_converter(config: ProcessingConfig, ocr: OcrEngine) -> DocumentConverter:
+def build_converter(config: ProcessingConfig, ocr: OcrEngine, device: str = "cpu") -> DocumentConverter:
     """Construct a Docling PDF converter for a preset with a chosen OCR engine.
 
     Parameters
@@ -29,6 +29,9 @@ def build_converter(config: ProcessingConfig, ocr: OcrEngine) -> DocumentConvert
         The pipeline preset to apply.
     ocr : OcrEngine
         The OCR engine to run, or "none" to disable OCR.
+    device : str
+        Accelerator device for docling's models: "cpu" (default), "cuda", "mps",
+        or "auto". Maps onto Docling's AcceleratorDevice enum.
 
     Returns
     -------
@@ -38,7 +41,7 @@ def build_converter(config: ProcessingConfig, ocr: OcrEngine) -> DocumentConvert
     """
     pipeline_options = PdfPipelineOptions()
     pipeline_options.accelerator_options = AcceleratorOptions(
-        num_threads=config.num_threads, device=AcceleratorDevice.CPU
+        num_threads=config.num_threads, device=AcceleratorDevice(device.lower())
     )
     pipeline_options.generate_picture_images = True
     pipeline_options.images_scale = config.images_scale

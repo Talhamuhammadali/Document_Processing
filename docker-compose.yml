@@ -17,6 +17,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      network: host
     container_name: docproc-backend
     depends_on:
       redis:
@@ -57,7 +58,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.worker
+      network: host
     container_name: docproc-worker
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 6G
     depends_on:
       redis:
         condition: service_healthy
@@ -76,6 +83,7 @@ services:
     build:
       context: ./app/frontend
       dockerfile: Dockerfile
+      network: host
     container_name: docproc-frontend
     depends_on:
       backend:

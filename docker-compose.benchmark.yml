@@ -10,13 +10,47 @@ services:
           cpus: "2.0"
           memory: 6G
     environment:
-      - INPUT_DIR=/data
+      - INPUT_DIR=/data/redacted_examples
       - OUTPUT_DIR=/out
       - CONFIG_DIR=/configs
       - WORKERS=1
       - CPU_CORES=2
+      - DEVICE=cpu
     volumes:
-      - "./data/tech_doc_examples:/data:ro"
+      - "./data:/data:ro"
+      - "./benchmark/out:/out"
+      - "./configs:/configs:ro"
+      - "./app:/app/app:ro"
+      - "./benchmark/benchmark.py:/app/benchmark.py:ro"
+
+  benchmark-gpu:
+    profiles: ["gpu"]
+    build:
+      context: ./benchmark
+      dockerfile: Dockerfile
+      args:
+        TORCH_INDEX_URL: https://pypi.org/simple
+        ONNXRUNTIME_GPU: onnxruntime-gpu
+    container_name: docling-benchmark-gpu
+    deploy:
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: 8G
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      - INPUT_DIR=/data/redacted_examples
+      - OUTPUT_DIR=/out
+      - CONFIG_DIR=/configs
+      - WORKERS=1
+      - CPU_CORES=4
+      - DEVICE=cuda
+    volumes:
+      - "./data:/data:ro"
       - "./benchmark/out:/out"
       - "./configs:/configs:ro"
       - "./app:/app/app:ro"

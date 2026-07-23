@@ -15,6 +15,9 @@ Environment variables:
   WORKERS              Parallel converter processes (default: 1 -> single-process, Option A)
   CPU_CORES            Core budget used to auto-split threads across workers (default: 2)
   DOCLING_NUM_THREADS  Threads per worker; overrides the CPU_CORES // WORKERS default
+  DEVICE               Accelerator device: cpu (default), cuda, mps, or auto. A cuda run
+                       needs the GPU-enabled image and a GPU exposed to the container
+                       (see docker-compose.benchmark.gpu.yml).
 """
 
 import os
@@ -22,6 +25,7 @@ import os
 WORKERS = max(1, int(os.environ.get("WORKERS", "1")))
 CPU_CORES = max(1, int(os.environ.get("CPU_CORES", "2")))
 THREADS_PER_WORKER = int(os.environ.get("DOCLING_NUM_THREADS", str(max(1, CPU_CORES // WORKERS))))
+DEVICE = os.environ.get("DEVICE", "cpu").lower()
 for _var in ("OMP_NUM_THREADS", "MKL_NUM_THREADS", "OPENBLAS_NUM_THREADS"):
     os.environ[_var] = str(THREADS_PER_WORKER)
 
@@ -61,7 +65,7 @@ def _init_worker(warmup_pdf: str, config: ProcessingConfig, ocr: OcrEngine, barr
     """Build a per-process converter, warm the models, then sync on the barrier."""
     global _WORKER_CONVERTER
     settings.debug.profile_pipeline_timings = True
-    _WORKER_CONVERTER = build_converter(config, ocr)
+    _WORKER_CONVERTER = build_converter(config, ocr, DEVICE)
     _WORKER_CONVERTER.convert(warmup_pdf)
     if barrier is not None:
         barrier.wait()
@@ -107,9 +111,11 @@ def run_config(
     name: str, config: ProcessingConfig, ocr: OcrEngine, paths: list[str], output_dir: Path
 ) -> dict[str, Any]:
     """Benchmark one config over all PDFs, print its report, and write its results JSON."""
-    print(f"\n{'=' * 68}\nConfig '{name}': table_mode={config.table_mode} "
-          f"do_table_structure={config.do_table_structure} images_scale={config.images_scale} "
-          f"num_threads={config.num_threads} ocr={ocr}\n{'=' * 68}")
+    print(
+        f"\n{'=' * 68}\nConfig '{name}': table_mode={config.table_mode} "
+        f"do_table_structure={config.do_table_structure} images_scale={config.images_scale} "
+        f"num_threads={config.num_threads} ocr={ocr} device={DEVICE}\n{'=' * 68}"
+    )
 
     print("Warming up (loading models, excluded from timing)...")
     raw, proc_wall = run_conversions(paths, paths[0], config, ocr)
@@ -156,6 +162,7 @@ def run_config(
             "images_scale": config.images_scale,
             "num_threads": config.num_threads,
             "ocr": ocr,
+            "device": DEVICE,
             "workers": WORKERS,
             "threads_per_worker": THREADS_PER_WORKER,
             "cpu_cores": CPU_CORES,
@@ -183,13 +190,9 @@ def main() -> None:
     names = [n for n, _ in configs]
     ocr_variants: tuple[OcrEngine, ...] = ("none", "tesseract", "rapidocr")
     print(f"Found {len(pdfs)} PDF(s) in {input_dir}; configs {names} x ocr {list(ocr_variants)}")
-    print(f"workers={WORKERS} threads/worker={THREADS_PER_WORKER} core_budget={CPU_CORES}")
+    print(f"device={DEVICE} workers={WORKERS} threads/worker={THREADS_PER_WORKER} core_budget={CPU_CORES}")
 
-    summaries = [
-        run_config(name, config, ocr, paths, output_dir)
-        for name, config in configs
-        for ocr in ocr_variants
-    ]
+    summaries = [run_config(name, config, ocr, paths, output_dir) for name, config in configs for ocr in ocr_variants]
 
     print(f"\n{'=' * 68}\nComparison\n{'=' * 68}")
     print(f"{'config':<24} {'pages':>6} {'wall_sec':>10} {'pages/sec':>10}")
@@ -197,8 +200,9 @@ def main() -> None:
     for s in summaries:
         ocr = s["config"]["ocr"]
         label = f"{s['config_name']}{'' if ocr == 'none' else ' +' + ocr}"
-        print(f"{label:<24} {s['total_pages']:>6} {s['processing_wall_sec']:>10.2f} "
-              f"{s['aggregate_pages_per_sec']:>10.3f}")
+        print(
+            f"{label:<24} {s['total_pages']:>6} {s['processing_wall_sec']:>10.2f} {s['aggregate_pages_per_sec']:>10.3f}"
+        )
 
 
 if __name__ == "__main__":

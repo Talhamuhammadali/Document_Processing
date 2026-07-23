@@ -18,14 +18,15 @@ ENV PIP_NO_CACHE_DIR=1 \
 
 WORKDIR /app
 
-# torch is large and version-stable: its own cached layer
 ARG TORCH_INDEX_URL=https://download.pytorch.org/whl/cpu
 RUN pip install --index-url ${TORCH_INDEX_URL} torch==2.9.1 torchvision==0.24.1
 
-# docling + OCR engine (rapidocr, ONNX): cached until a version bumps
 RUN pip install \
         "docling==2.66.0" \
         "rapidocr-onnxruntime>=1.2.0"
+
+ARG ONNXRUNTIME_GPU=
+RUN if [ -n "${ONNXRUNTIME_GPU}" ]; then pip install "${ONNXRUNTIME_GPU}"; fi
 
 # Model weights: cached layer, never invalidated by code or config changes
 RUN docling-tools models download layout tableformer rapidocr
